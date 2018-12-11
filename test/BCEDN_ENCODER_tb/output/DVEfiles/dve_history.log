@@ -1,0 +1,1505 @@
+# Preference setting overrides
+gui_set_pref_value -category {Data} -key {showValueAnnotation} -value {true}
+gui_set_pref_value -category {Driver} -key {show_intermediate_drivers} -value {true}
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file BCEDN_ENCODER_tb_waveform.vpd -design V1} {gui_open_db -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/BCEDN_ENCODER_tb_waveform.vpd -design V1} {gui_open_db -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/BCEDN_ENCODER_tb_waveform.vpd -design V2} {gui_open_db -file /home/tensor_v1/project/B-CEDNet/test/FMAP_IN_SHIFTREG_tb/output/testbench_FMAP_IN_SHIFTREG_waveform.vpd -design V1} {gui_open_db -file /home/tensor_v1/project/B-CEDNet/test/W_ROM_tb/output/testbench_W_ROM_waveform.vpd -design V1}}
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -ignore_errors -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl -ignore_errors} {gui_load_session -ignore_errors -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl} {gui_load_session -ignore_errors -file /home/tensor_v1/project/B-CEDNet/test/testbench_PE_DC/output/DVEfiles//crash_12.20:10.36/dve_session12.20:10.36.tcl}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1857
+gui_set_state_value -category Layout -key child_console_size_y -value 178
+gui_set_state_value -category Layout -key child_data_coltype -value 70
+gui_set_state_value -category Layout -key child_data_colvalue -value 122
+gui_set_state_value -category Layout -key child_data_colvariable -value 168
+gui_set_state_value -category Layout -key child_data_size_x -value 347
+gui_set_state_value -category Layout -key child_data_size_y -value 740
+gui_set_state_value -category Layout -key child_driver_size_x -value 1561
+gui_set_state_value -category Layout -key child_driver_size_y -value 178
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 312
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_coltype -value 107
+gui_set_state_value -category Layout -key child_hier_size_x -value 403
+gui_set_state_value -category Layout -key child_hier_size_y -value 740
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1110
+gui_set_state_value -category Layout -key child_source_size_y -value 735
+gui_set_state_value -category Layout -key child_wave_colname -value 341
+gui_set_state_value -category Layout -key child_wave_colvalue -value 212
+gui_set_state_value -category Layout -key child_wave_left -value 557
+gui_set_state_value -category Layout -key child_wave_right -value 1357
+gui_set_state_value -category Layout -key main_pos_x -value 3
+gui_set_state_value -category Layout -key main_pos_y -value 76
+gui_set_state_value -category Layout -key main_size_x -value 1860
+gui_set_state_value -category Layout -key main_size_y -value 1075
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1924
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 940
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 0
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 53
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1919
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 1079
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key Find|m_pFindFrame|m_pFindCombo -value_type string -value {p_count w_rom_addr INDEX_SRAM_DE data_in_mux sel}
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_top_dock|&Edit|FindCombo -value_type string -value {p_count w_rom_addr INDEX_SRAM_DE data_in_mux sel}
+gui_create_state_key -category Widget_History -key TopLevel.2|qt_top_dock|&Edit|FindCombo -value_type string -value {p_count w_rom_addr INDEX_SRAM_DE data_in_mux sel}
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/BCEDN_ENCODER_tb_waveform.vpd -design V1
+set DIALOGS::LOADFILEDIR [file dirname /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl]; gui_load_session -ignore_errors -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 1331305000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 1164905000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}   }
+gui_wv_zoom_timerange -id  Wave.1 1164715228 1165005974
+gui_marker_select -id  Wave.1 { C1 }
+gui_get_drivers -id Wave.1 -signal {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.row_count[5:0]}   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.p_count[0:0]}   }
+gui_get_drivers -id Wave.1 -signal {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}
+gui_src_highlight_item -id Source.1 -lfrom 330 -idxfrom 20 -fileIdFrom 0 -lto 330 -idxto 23 -fileIdTo 0 -selection {clk} -selectionId 0 -replace 0
+gui_list_add -id Wave.1 -from Source.1 { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk } -insertionbar
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after Group1 {{BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk}}
+gui_marker_move -id  Wave.1 C1 1164899853
+gui_marker_move -id  Wave.1 C1 1164894851
+gui_marker_move -id  Wave.1 C1 1164895000
+gui_get_drivers -id Wave.1 -signal {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}
+gui_list_set_filter -id Hier.1 -text {*}
+gui_close_db -file BCEDN_ENCODER_tb_waveform.vpd -design V1
+gui_close_window -window TopLevel.2
+gui_open_db -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/BCEDN_ENCODER_tb_waveform.vpd -design V1
+gui_list_select -id Hier.1 -current_item_name BCEDN_ENCODER_tb -current_item_type Scope  -selected  { BCEDN_ENCODER_tb   }
+gui_list_expand -id Hier.1   BCEDN_ENCODER_tb
+gui_list_action -id  Hier.1 BCEDN_ENCODER_tb
+gui_list_select -id Hier.1 -current_item_name BCEDN_ENCODER_tb.encoder_inst -current_item_type Scope  -selected  { BCEDN_ENCODER_tb.encoder_inst   }
+gui_list_expand -id Hier.1   BCEDN_ENCODER_tb.encoder_inst
+gui_list_action -id  Hier.1 BCEDN_ENCODER_tb.encoder_inst
+gui_list_select -id Data.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.clk   }
+gui_list_select -id Hier.1 -current_item_name BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst -current_item_type Scope  -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst   }
+gui_list_action -id  Hier.1 BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst
+gui_list_select -id Data.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk   }
+gui_list_select -id Data.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.rst   }
+gui_list_select -id Data.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.rst  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_in_en   }
+gui_list_select -id Data.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.rst  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_in_en  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.start   }
+gui_list_select -id Data.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.rst  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_in_en  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.start  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[1:0]}   }
+gui_list_select -id Data.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.rst  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_in_en  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.start  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[1:0]}  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_out_shiftreg_en   }
+gui_list_select -id Data.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.rst  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_in_en  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.start  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[1:0]}  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_out_shiftreg_en  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}   }
+gui_list_select -id Data.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.rst  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_in_en  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.start  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[1:0]}  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_out_shiftreg_en  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_en   }
+gui_list_select -id Data.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.rst  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_in_en  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.start  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[1:0]}  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_out_shiftreg_en  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_en  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_en   }
+gui_list_show_data -select -id  Data.1   BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk
+gui_list_select -id Data.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_wr   }
+gui_list_select -id Data.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk   }
+gui_list_select -id Data.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.pad_mux_sel   }
+gui_list_select -id Data.1 { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.rst  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_in_en  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.start  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[1:0]}  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_out_shiftreg_en  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_en  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_en  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_wr  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_addr[16:0]}  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.pe_en  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_out_en  BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.tg_next   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.pad_mux_sel BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.rst BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_in_en BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.start {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[1:0]} BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_out_shiftreg_en BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_en {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]} BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_en BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_wr {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_addr[16:0]} BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.pe_en BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_out_en BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.tg_next } -insertionbar
+gui_marker_move -id  Wave.1 C1 153
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 1172585000
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.tg_next   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[1:0]}   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_addr[16:0]}   }
+gui_list_select -id Data.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.output_count[6:0]}   }
+gui_list_select -id Data.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.output_count[6:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.col_count[7:0]}   }
+gui_list_select -id Data.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.output_count[6:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.col_count[7:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.row_count[5:0]}   }
+gui_list_select -id Data.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.output_count[6:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.col_count[7:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.row_count[5:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.p_count[0:0]}   }
+gui_list_select -id Data.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.output_count[6:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.col_count[7:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.row_count[5:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.p_count[0:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}   }
+gui_list_select -id Data.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.p_count[0:0]}   }
+gui_list_select -id Data.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}   }
+gui_list_select -id Data.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.output_count[6:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.col_count[7:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.row_count[5:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.p_count[0:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.output_count[6:0]} {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.col_count[7:0]} {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.row_count[5:0]} {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.p_count[0:0]} {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]} } -insertionbar
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.output_count[6:0]}   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.output_count[6:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.col_count[7:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.row_count[5:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.p_count[0:0]}  {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix decimal
+gui_marker_select -id  Wave.1 { C1 }
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 1164905000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_wv_scroll_hslidermove -id  Wave.1 79528
+gui_marker_move -id  Wave.1 C1 1497715000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_get_drivers -id Wave.1 -signal {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.p_count[0:0]}
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}   }
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_marker_move -id  Wave.1 C1 1497705000
+gui_get_drivers -id Wave.1 -signal {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}
+gui_src_highlight_item -id Source.1 -lfrom 430 -idxfrom 32 -fileIdFrom 0 -lto 430 -idxto 37 -fileIdTo 0 -selection {state} -selectionId 0 -replace 0
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 1164905000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_get_drivers -id Wave.1 -signal {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}
+gui_src_highlight_item -id Source.1 -lfrom 355 -idxfrom 32 -fileIdFrom 0 -lto 355 -idxto 37 -fileIdTo 0 -selection {state} -selectionId 0 -replace 0
+gui_marker_move -id  Wave.1 C1 1164905000
+gui_marker_move -id  Wave.1 C1 1164905000
+gui_get_drivers -id Wave.1 -signal {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}
+gui_zoom -window Wave.1 -factor 2
+gui_get_drivers -id Wave.1 -signal {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}
+gui_src_highlight_item -id Source.1 -lfrom 430 -idxfrom 32 -fileIdFrom 0 -lto 430 -idxto 43 -fileIdTo 0 -selection {state <= S5} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 428 -idxfrom 32 -fileIdFrom 0 -lto 428 -idxto 43 -fileIdTo 0 -selection {state <= S6} -selectionId 0 -replace 0
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_addr[16:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix decimal
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.row_count[5:0]}   }
+gui_src_highlight_item -id Source.1 -lfrom 425 -idxfrom 33 -fileIdFrom 0 -lto 425 -idxto 42 -fileIdTo 0 -selection {row_count} -selectionId 0 -replace 0
+gui_close_db -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/BCEDN_ENCODER_tb_waveform.vpd -design V1
+gui_open_db -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/BCEDN_ENCODER_tb_waveform.vpd -design V1
+set DIALOGS::LOADFILEDIR [file dirname /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl]; gui_load_session -ignore_errors -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_src_highlight_item -id Source.1 -lfrom 15 -idxfrom 4 -fileIdFrom 0 -lto 15 -idxto 7 -fileIdTo 0 -selection {clk} -selectionId 0 -replace 0
+gui_list_add -id Wave.1 -from Source.1 { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk } -insertionbar
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.col_count[7:0]}   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.row_count[5:0]}   }
+gui_marker_move -id  Wave.1 C1 1331305000
+gui_marker_move -id  Wave.1 C1 1164905000
+gui_close_db -file BCEDN_ENCODER_tb_waveform.vpd -design V1
+gui_open_db -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/BCEDN_ENCODER_tb_waveform.vpd -design V1
+set DIALOGS::LOADFILEDIR [file dirname /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl]; gui_load_session -ignore_errors -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_zoom -window Wave.1 -full
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.row_count[5:0]}   }
+gui_marker_move -id  Wave.1 C1 998505000
+gui_marker_move -id  Wave.1 C1 134665502
+gui_marker_move -id  Wave.1 C1 162675000
+gui_marker_move -id  Wave.1 C1 9065000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_marker_move -id  Wave.1 C1 5000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_addr[16:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix decimal
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix decimal
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_wr   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.output_count[6:0]}   }
+gui_zoom -window Wave.1 -factor 2
+gui_marker_move -id  Wave.1 C1 115000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 1385000
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 166505000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 165235000
+gui_zoom -window Wave.1 -factor 2
+gui_list_expand -id  Wave.1   {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[1:0]}
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Data.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk   }
+gui_list_add -id Wave.1 -from Data.1 { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk } -insertionbar
+gui_save_session -savedb relative -global { Breakpoint Bus Radix Expression TimeShift Compare SignalGroup Highlight Stack }  -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.pe_en   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_en   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_addr[16:0]} {{BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_en}} 
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 1003615000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[1]}   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[0]}   }
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[1]}   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.output_count[6:0]}   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.tg_next   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk {{BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.tg_next}} 
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_out_en   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_en   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_wr   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_en   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_wr   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.output_count[6:0]}   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}   }
+gui_marker_move -id  Wave.1 C1 1003625000
+gui_get_drivers -id Wave.1 -signal {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[0]}
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 1002345000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_src_highlight_item -id Source.1 -lfrom 118 -idxfrom 16 -fileIdFrom 0 -lto 118 -idxto 35 -fileIdTo 0 -selection {fmap_in_shiftreg_en} -selectionId 0 -replace 0
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.p_count[0:0]}   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.col_count[7:0]}   }
+gui_marker_move -id  Wave.1 C1 998515000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[0]}   }
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_en   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.pe_en   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_out_en   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.pe_en   }
+gui_marker_move -id  Wave.1 C1 1002335000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 1003615000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 1002345000
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_out_en   }
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 1003615000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_out_shiftreg_en   }
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_out_en   }
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_collapse -id  Wave.1   {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[1:0]}
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_in_shiftreg_en[1:0]}   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_out_shiftreg_en   }
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  page
+gui_wv_scrollleft -id  Wave.1  page
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_wv_scroll_hslidermove -id  Wave.1 141
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.row_count[5:0]}   }
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}   }
+gui_marker_move -id  Wave.1 C1 3161705000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 3660905000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 6156905000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 6219848147
+gui_save_session -savedb relative -global { Breakpoint Bus Radix Expression TimeShift Compare SignalGroup Highlight Stack }  -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl
+gui_close_db -file BCEDN_ENCODER_tb_waveform.vpd -design V1
+gui_open_db -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/BCEDN_ENCODER_tb_waveform.vpd -design V1
+set DIALOGS::LOADFILEDIR [file dirname /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl]; gui_load_session -ignore_errors -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 11148905000
+gui_marker_select -id  Wave.1 { C1 }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.row_count[5:0]}   }
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_wv_scroll_hslidermove -id  Wave.1 914
+gui_marker_move -id  Wave.1 C1 10649705000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 10982505000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 10816105000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 10982505000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 11148905000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 11165108349
+gui_marker_move -id  Wave.1 C1 11148905000
+gui_marker_move -id  Wave.1 C1 11148915000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.p_count[0:0]}   }
+gui_get_drivers -id Wave.1 -signal {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.p_count[0:0]}
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_marker_move -id  Wave.1 C1 11148905000
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 10982505000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_marker_move -id  Wave.1 C1 10983785000
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_close_db -file BCEDN_ENCODER_tb_waveform.vpd -design V1
+gui_open_db -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/BCEDN_ENCODER_tb_waveform.vpd -design V1
+set DIALOGS::LOADFILEDIR [file dirname /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl]; gui_load_session -ignore_errors -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_wv_scroll_hslidermove -id  Wave.1 198
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_marker_move -id  Wave.1 C1 4664415000
+gui_wv_zoom_timerange -id  Wave.1 4534204692 9843687905
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_scroll -window Wave.1 -hrel -.2
+gui_wv_scrollright -id  Wave.1  page
+gui_wv_scrollleft -id  Wave.1  page
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.tg_next   }
+gui_marker_move -id  Wave.1 C1 666985000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_wr   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_en   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.pe_en   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_en   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_addr[16:0]}   }
+gui_marker_move -id  Wave.1 C1 2009705000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_marker_move -id  Wave.1 C1 2163305000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}   }
+gui_list_expand -id  Wave.1   {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}
+gui_list_collapse -id  Wave.1   {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}
+gui_list_expand -id  Wave.1   {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}
+gui_list_collapse -id  Wave.1   {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}
+gui_marker_move -id  Wave.1 C1 2014825000
+gui_marker_move -id  Wave.1 C1 2004585000
+gui_marker_move -id  Wave.1 C1 2000745000
+gui_marker_move -id  Wave.1 C1 1762305000
+gui_marker_move -id  Wave.1 C1 2000745000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_wr   }
+gui_marker_select -id  Wave.1 { C1 }
+gui_marker_move -id  Wave.1 C1 1992595000
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}   }
+gui_get_drivers -id Wave.1 -signal {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}   }
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 5000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 6666
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 105000
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}   }
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}   }
+gui_zoom -window Wave.1 -factor 2
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}   }
+gui_save_session -savedb relative -global { Breakpoint Bus Radix Expression TimeShift Compare SignalGroup Highlight Stack }  -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl
+gui_close_db -file BCEDN_ENCODER_tb_waveform.vpd -design V1
+gui_open_db -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/BCEDN_ENCODER_tb_waveform.vpd -design V1
+set DIALOGS::LOADFILEDIR [file dirname /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl]; gui_load_session -ignore_errors -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_marker_select -id  Wave.1 { C1 }
+gui_get_drivers -id Wave.1 -signal {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}
+gui_src_highlight_item -id Source.1 -lfrom 215 -idxfrom 18 -fileIdFrom 0 -lto 215 -idxto 23 -fileIdTo 0 -selection {state} -selectionId 0 -replace 0
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.index_sram_en   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.pe_en   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_en   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_en   }
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_close_db -file BCEDN_ENCODER_tb_waveform.vpd -design V1
+gui_open_db -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/BCEDN_ENCODER_tb_waveform.vpd -design V1
+set DIALOGS::LOADFILEDIR [file dirname /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl]; gui_load_session -ignore_errors -file /home/tensor_v1/project/B-CEDNet/test/BCEDN_ENCODER_tb/output/session.BCEDN_ENCODER_tb_waveform.vpd.tcl
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 2000745000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 1998185000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 2000745000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.output_count[6:0]}   }
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 2002025000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_marker_move -id  Wave.1 C1 2002015000
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 1999475000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_marker_move -id  Wave.1 C1 1999465000
+gui_get_drivers -id Wave.1 -signal {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}
+gui_marker_select -id  Wave.1 { C1 }
+gui_get_drivers -id Wave.1 -signal {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.w_rom_addr[6:0]}
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 2000765000
+gui_marker_move -id  Wave.1 C1 2000745000
+gui_marker_move -id  Wave.1 C1 1999465000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.col_count[7:0]}   }
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}   }
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.fmap_out_shiftreg_en   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.data_out_en   }
+gui_list_select -id Wave.1 -selected  { {BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.state[3:0]}   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.clk   }
+gui_list_select -id Wave.1 -selected  { BCEDN_ENCODER_tb.encoder_inst.ec_ctrl_inst.tg_next   }
+gui_close_window -window TopLevel.2

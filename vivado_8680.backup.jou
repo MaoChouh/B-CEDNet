@@ -1,0 +1,151 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Oct 16 14:41:36 2018
+# Process ID: 8680
+# Current directory: F:/Vivado_prj/B-CEDNet
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2984 F:\Vivado_prj\B-CEDNet\B-CEDNet.xpr
+# Log file: F:/Vivado_prj/B-CEDNet/vivado.log
+# Journal file: F:/Vivado_prj/B-CEDNet\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Vivado_prj/B-CEDNet/B-CEDNet.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+show_objects -name start [get_cells -hierarchical -filter { PRIMITIVE_TYPE =~ BLOCKRAM.*.* } ]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 4096 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+startgroup 
+set_property C_EN_STRG_QUAL true [get_debug_cores u_ila_0 ]
+set_property C_ADV_TRIGGER true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU_CNT 4 [get_debug_cores u_ila_0 ]
+endgroup
+create_debug_core u_ila_1 ila
+set_property C_DATA_DEPTH 4096 [get_debug_cores u_ila_1]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_1]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_1]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_1]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_1]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_1]
+startgroup 
+set_property C_EN_STRG_QUAL true [get_debug_cores u_ila_1 ]
+set_property C_ADV_TRIGGER true [get_debug_cores u_ila_1 ]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_1 ]
+set_property ALL_PROBE_SAME_MU_CNT 4 [get_debug_cores u_ila_1 ]
+endgroup
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list clk_p_0 ]]
+set_property port_width 1 [get_debug_ports u_ila_1/clk]
+connect_debug_port u_ila_1/clk [get_nets [list sys_clk/inst/clk_out2 ]]
+set_property port_width 17 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {data_out_count_reg[0]} {data_out_count_reg[1]} {data_out_count_reg[2]} {data_out_count_reg[3]} {data_out_count_reg[4]} {data_out_count_reg[5]} {data_out_count_reg[6]} {data_out_count_reg[7]} {data_out_count_reg[8]} {data_out_count_reg[9]} {data_out_count_reg[10]} {data_out_count_reg[11]} {data_out_count_reg[12]} {data_out_count_reg[13]} {data_out_count_reg[14]} {data_out_count_reg[15]} {data_out_count_reg[16]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list out_en ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list U/ec1_inst/tg_ad_ec1 ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list U/ec1_inst/tg_ec1_ec2 ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
+connect_debug_port u_ila_0/probe4 [get_nets [list U/ec2_inst/tg_next ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe5]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5]
+connect_debug_port u_ila_0/probe5 [get_nets [list U/ec3_inst/tg_next ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe6]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe6]
+connect_debug_port u_ila_0/probe6 [get_nets [list U/dc10_inst/done ]]
+set_property port_width 12 [get_debug_ports u_ila_1/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe0]
+connect_debug_port u_ila_1/probe0 [get_nets [list {data_in_addr_reg__0[0]} {data_in_addr_reg__0[1]} {data_in_addr_reg__0[2]} {data_in_addr_reg__0[3]} {data_in_addr_reg__0[4]} {data_in_addr_reg__0[5]} {data_in_addr_reg__0[6]} {data_in_addr_reg__0[7]} {data_in_addr_reg__0[8]} {data_in_addr_reg__0[9]} {data_in_addr_reg__0[10]} {data_in_addr_reg__0[11]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 8 [get_debug_ports u_ila_1/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe1]
+connect_debug_port u_ila_1/probe1 [get_nets [list {data_in_dly[0]} {data_in_dly[1]} {data_in_dly[2]} {data_in_dly[3]} {data_in_dly[4]} {data_in_dly[5]} {data_in_dly[6]} {data_in_dly[7]} ]]
+save_constraints -force
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+close_design
+open_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.bit} [get_hw_devices xcvu9p_0]
+set_property PROBES.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.ltx} [get_hw_devices xcvu9p_0]
+set_property FULL_PROBES.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.ltx} [get_hw_devices xcvu9p_0]
+current_hw_device [get_hw_devices xcvu9p_0]
+refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0]
+set_property PROBES.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.ltx} [get_hw_devices xcvu9p_0]
+set_property FULL_PROBES.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.ltx} [get_hw_devices xcvu9p_0]
+set_property PROGRAM.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.bit} [get_hw_devices xcvu9p_0]
+program_hw_devices [get_hw_devices xcvu9p_0]
+refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0]
+refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0]
+set_property PROBES.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.ltx} [get_hw_devices xcvu9p_0]
+set_property FULL_PROBES.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.ltx} [get_hw_devices xcvu9p_0]
+set_property PROGRAM.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.bit} [get_hw_devices xcvu9p_0]
+program_hw_devices [get_hw_devices xcvu9p_0]
+refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0]
+set_property CONTROL.DATA_DEPTH 2 [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~""}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~""}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~""}]
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.bit} [get_hw_devices xcvu9p_0]
+set_property PROBES.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.ltx} [get_hw_devices xcvu9p_0]
+set_property FULL_PROBES.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.ltx} [get_hw_devices xcvu9p_0]
+current_hw_device [get_hw_devices xcvu9p_0]
+refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0]
+refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0]
+set_property PROBES.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.ltx} [get_hw_devices xcvu9p_0]
+set_property FULL_PROBES.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.ltx} [get_hw_devices xcvu9p_0]
+set_property PROGRAM.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.bit} [get_hw_devices xcvu9p_0]
+program_hw_devices [get_hw_devices xcvu9p_0]
+refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0]
+set_property PROBES.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.ltx} [get_hw_devices xcvu9p_0]
+set_property FULL_PROBES.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.ltx} [get_hw_devices xcvu9p_0]
+set_property PROGRAM.FILE {F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/impl_1/SYS_TOP.bit} [get_hw_devices xcvu9p_0]
+program_hw_devices [get_hw_devices xcvu9p_0]
+refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"u_ila_0"}]
+startgroup 
+set_property CONTROL.DATA_DEPTH 2 [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"u_ila_0"}]
+set_property CONTROL.TRIGGER_POSITION 0 [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"u_ila_0"}]
+endgroup
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"u_ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"u_ila_0"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"u_ila_0"}]
+refresh_hw_device [lindex [get_hw_devices xcvu9p_0] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"u_ila_1"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"u_ila_1"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xcvu9p_0] -filter {CELL_NAME=~"u_ila_1"}]
+save_wave_config {F:/Vivado_prj/B-CEDNet/B-CEDNet.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+save_wave_config {F:/Vivado_prj/B-CEDNet/B-CEDNet.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}

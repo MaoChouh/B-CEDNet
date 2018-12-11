@@ -1,0 +1,8 @@
+SYS_TOP.dcp filter=lfs diff=lfs merge=lfs -text
+B-CEDNet.runs/synth_1/SYS_TOP.dcp filter=lfs diff=lfs merge=lfs -text
+B-CEDNet.sim/sim_1/behav/xsim/SYS_TOP_tb_behav.wdb filter=lfs diff=lfs merge=lfs -text
+.git/lfs/objects/92/6f/926fa22bacc0884ceba64f846d6be293f77fe34cf5c671c512186deb0271d5c2 filter=lfs diff=lfs merge=lfs -text
+B-CEDNet.runs/impl_1/BCEDN_TOP_opt.dcp filter=lfs diff=lfs merge=lfs -text
+B-CEDNet.runs/impl_1/BCEDN_TOP_placed.dcp filter=lfs diff=lfs merge=lfs -text
+B-CEDNet.runs/impl_1/BCEDN_TOP_routed.dcp filter=lfs diff=lfs merge=lfs -text
+B-CEDNet.runs/synth_1/BCEDN_TOP.dcp filter=lfs diff=lfs merge=lfs -text

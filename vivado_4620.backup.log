@@ -1,0 +1,175 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:47:07 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Fri Mar 24 16:03:51 2017
+# Process ID: 4620
+# Log file: /home/tensor_v1/project/B-CEDNet/vivado.log
+# Journal file: /home/tensor_v1/project/B-CEDNet/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/tensor_v1/project/B-CEDNet/B-CEDNet.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/testbench/headers/FMAP_IN_SHIFTREG_tb.vh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/testbench/headers/BCEDN_ENCODER_tb.vh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_W_ROM_3.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_W_ROM_2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_W_ROM_1.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_W_ROM_0.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_REF_SOFT_ROM_3.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_REF_SOFT_ROM_2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_REF_SOFT_ROM_1.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_REF_SOFT_ROM_0.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/headers/W_ROM_SOFT.vh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/testbench/headers/testbench_FMAP_IN_SHIFTREG.vh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ADAPTER_tb.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_EDCODER.tb'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2014.4/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 5779.555 ; gain = 129.371 ; free physical = 41025 ; free virtual = 84340
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse /home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/headers/gen/W_ROM_SOFT_F.vh
+update_compile_order -fileset sources_1
+close [ open /home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/CLK_DIV.sv w ]
+add_files /home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/CLK_DIV.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse /home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/CLK_DIV.v
+update_compile_order -fileset sources_1
+add_files -norecurse /home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/ROM_SOFT_F.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+remove_files /home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/ROM_SOFT_F.sv
+add_files -norecurse /home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/ROM_SOFT_F.v
+WARNING: [filemgmt 56-12] File '/home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/ROM_SOFT_F.v' cannot be added to the project because it already exists in the project, skipping this file
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse {/home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/sync_r2w.v /home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/fifo1.v /home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/rptr_empty.v /home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/sync_w2r.v /home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/wptr_full.v /home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/fifomem.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse {/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/BCEDN_TOP_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg}
+update_compile_order -fileset sources_1
+set_property source_mgmt_mode None [current_project]
+remove_files {/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/BCEDN_TOP_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ADAPTER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_DECODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENCODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENDECODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb_bb.v}
+remove_files: Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 12005.887 ; gain = 0.000 ; free physical = 8407 ; free virtual = 50374
+remove_files {/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg}
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg'
+remove_files {/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg}
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg'
+remove_files {/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/BCEDN_TOP_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ADAPTER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_DECODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENCODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENDECODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb_bb.v}
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/BCEDN_TOP_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ADAPTER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_DECODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENCODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENDECODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb_bb.v'
+remove_files {/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/BCEDN_TOP_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ADAPTER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_DECODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENCODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENDECODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb_bb.v}
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/BCEDN_TOP_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ADAPTER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_DECODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENCODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENDECODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb_bb.v'
+remove_files {/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/BCEDN_TOP_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ADAPTER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_DECODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENCODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENDECODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb_bb.v}
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/BCEDN_TOP_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ADAPTER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_DECODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENCODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENDECODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb_bb.v'
+remove_files {/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/BCEDN_TOP_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ADAPTER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_DECODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENCODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENDECODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb_bb.v}
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/BCEDN_TOP_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ADAPTER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_DECODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENCODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENDECODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb_bb.v'
+remove_files {/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/BCEDN_TOP_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ADAPTER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_DECODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENCODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENDECODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb_bb.v}
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/BCEDN_TOP_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ADAPTER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_DECODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENCODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENDECODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb_bb.v'
+remove_files {/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/PRN_VG/BCEDN_TOP_WRAPPER_pnr.vg /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ADAPTER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_DECODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENCODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENDECODER_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb_bb.v}
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_2_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_8_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_7_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_3_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EC_1_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/DC_6_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/EDC_4_5_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/PRN_VG/BCEDN_TOP_WRAPPER_pnr.vg'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ADAPTER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_DECODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENCODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ENDECODER_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v'
+WARNING: [Vivado 12-818] No files matched '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb_bb.v'
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+remove_files /home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/CLK_DIV.sv
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_VG_tb.v w ]
+add_files -fileset sim_1 /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_VG_tb.v
+update_compile_order -fileset sim_1

@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Oct 14 13:32:06 2018
+# Process ID: 10612
+# Current directory: F:/Vivado_prj/B-CEDNet
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2640 F:\Vivado_prj\B-CEDNet\B-CEDNet.xpr
+# Log file: F:/Vivado_prj/B-CEDNet/vivado.log
+# Journal file: F:/Vivado_prj/B-CEDNet\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Vivado_prj/B-CEDNet/B-CEDNet.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'F:/Vivado_prj/B-CEDNet/src/testbench/headers/FMAP_IN_SHIFTREG_tb.vh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'F:/Vivado_prj/B-CEDNet/src/testbench/headers/BCEDN_ENCODER_tb.vh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'F:/Vivado_prj/B-CEDNet/src/soft_ip/mem/gen/EC_W_ROM_3.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'F:/Vivado_prj/B-CEDNet/src/soft_ip/mem/gen/EC_W_ROM_2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'F:/Vivado_prj/B-CEDNet/src/soft_ip/mem/gen/EC_W_ROM_1.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'F:/Vivado_prj/B-CEDNet/src/soft_ip/mem/gen/EC_W_ROM_0.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'F:/Vivado_prj/B-CEDNet/src/soft_ip/mem/gen/EC_REF_SOFT_ROM_3.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'F:/Vivado_prj/B-CEDNet/src/soft_ip/mem/gen/EC_REF_SOFT_ROM_2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'F:/Vivado_prj/B-CEDNet/src/soft_ip/mem/gen/EC_REF_SOFT_ROM_1.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'F:/Vivado_prj/B-CEDNet/src/soft_ip/mem/gen/EC_REF_SOFT_ROM_0.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/headers/W_ROM_SOFT.vh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'F:/Vivado_prj/B-CEDNet/src/testbench/headers/testbench_FMAP_IN_SHIFTREG.vh'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 870.324 ; gain = 160.961
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 14 18:43:21 2018...

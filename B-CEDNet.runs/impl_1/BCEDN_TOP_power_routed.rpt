@@ -1,0 +1,1053 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date             : Mon Dec 10 12:53:09 2018
+| Host             : DESKTOP-M0UOV8J running 64-bit major release  (build 9200)
+| Command          : report_power -file BCEDN_TOP_power_routed.rpt -pb BCEDN_TOP_power_summary_routed.pb -rpx BCEDN_TOP_power_routed.rpx
+| Design           : BCEDN_TOP
+| Device           : xcvu9p-flga2104-2L-e
+| Design State     : routed
+| Grade            : extended
+| Process          : typical
+| Characterization : Production
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 22.374       |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 19.534       |
+| Device Static (W)        | 2.840        |
+| Effective TJA (C/W)      | 0.5          |
+| Max Ambient (C)          | 87.8         |
+| Junction Temperature (C) | 37.2         |
+| Confidence Level         | Low          |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Clocks                   |     0.138 |        3 |       --- |             --- |
+| CLB Logic                |     7.319 |   928236 |       --- |             --- |
+|   LUT as Logic           |     7.309 |   672629 |   1182240 |           56.89 |
+|   LUT as Shift Register  |     0.006 |     8492 |    591840 |            1.43 |
+|   CARRY8                 |     0.002 |      630 |    147780 |            0.43 |
+|   Register               |     0.002 |    71569 |   2364480 |            3.03 |
+|   LUT as Distributed RAM |    <0.001 |        8 |    591840 |           <0.01 |
+|   BUFG                   |    <0.001 |       13 |       240 |            5.42 |
+|   Others                 |     0.000 |      634 |       --- |             --- |
+| Signals                  |    10.490 |  1052813 |       --- |             --- |
+| Block RAM                |     1.553 |   2099.5 |      2160 |           97.20 |
+| DSPs                     |     0.003 |       37 |      6840 |            0.54 |
+| I/O                      |     0.031 |       40 |       832 |            4.81 |
+| Static Power             |     2.840 |          |           |                 |
+| Total                    |    22.374 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++------------+-------------+-----------+-------------+------------+
+| Source     | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++------------+-------------+-----------+-------------+------------+
+| Vccint     |       0.850 |    24.113 |      22.839 |      1.274 |
+| Vccint_io  |       0.850 |     0.278 |       0.001 |      0.276 |
+| Vccbram    |       0.850 |     0.131 |       0.106 |      0.026 |
+| Vccaux     |       1.800 |     0.625 |       0.000 |      0.625 |
+| Vccaux_io  |       1.800 |     0.192 |       0.007 |      0.185 |
+| Vcco33     |       3.300 |     0.000 |       0.000 |      0.000 |
+| Vcco25     |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18     |       1.800 |     0.010 |       0.010 |      0.000 |
+| Vcco15     |       1.500 |     0.000 |       0.000 |      0.000 |
+| Vcco135    |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12     |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vcco10     |       1.000 |     0.000 |       0.000 |      0.000 |
+| Vccadc     |       1.800 |     0.024 |       0.000 |      0.024 |
+| MGTYAVcc   |       0.900 |     0.000 |       0.000 |      0.000 |
+| MGTYAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
+| MGTYVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
++------------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                     |
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                            |
+| Clock nodes activity        | High       | User specified more than 95% of clocks                 |                                                                                                            |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view   |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views |
+| Device models               | High       | Device models are Production                           |                                                                                                            |
+|                             |            |                                                        |                                                                                                            |
+| Overall confidence level    | Low        |                                                        |                                                                                                            |
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 0.5                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 0.7                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-------+--------+-----------------+
+| Clock | Domain | Constraint (ns) |
++-------+--------+-----------------+
+| clk   | clk    |            20.0 |
++-------+--------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++----------------------------------------------+-----------+
+| Name                                         | Power (W) |
++----------------------------------------------+-----------+
+| BCEDN_TOP                                    |    19.533 |
+|   ad_inst                                    |     0.006 |
+|     ad_ctrl_inst                             |    <0.001 |
+|     fmap_in_shiftreg_inst                    |    <0.001 |
+|     genblk1[0].fmap_out_shiftreg_inst        |    <0.001 |
+|     genblk1[0].pe_fp_inst                    |     0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       genblk2[0].genblk1[0].conv_kernel_inst |     0.001 |
+|     genblk1[1].fmap_out_shiftreg_inst        |    <0.001 |
+|     genblk1[1].pe_fp_inst                    |     0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       genblk2[0].genblk1[0].conv_kernel_inst |     0.001 |
+|     genblk1[2].fmap_out_shiftreg_inst        |    <0.001 |
+|     genblk1[2].normref_rom_inst              |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     genblk1[2].normref_sign_rom_inst         |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     genblk1[2].pe_fp_inst                    |    <0.001 |
+|       genblk2[0].genblk1[0].conv_kernel_inst |    <0.001 |
+|     genblk1[2].w_rom_inst                    |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     genblk1[3].fmap_out_shiftreg_inst        |    <0.001 |
+|     genblk1[3].normref_rom_inst              |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     genblk1[3].normref_sign_rom_inst         |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     genblk1[3].pe_fp_inst                    |    <0.001 |
+|       genblk2[0].genblk1[0].conv_kernel_inst |    <0.001 |
+|     genblk1[3].w_rom_inst                    |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|   clk_IBUF_inst                              |    <0.001 |
+|   data_in_IBUF[0]_inst                       |    <0.001 |
+|   data_in_IBUF[1]_inst                       |    <0.001 |
+|   data_in_IBUF[2]_inst                       |    <0.001 |
+|   data_in_IBUF[3]_inst                       |    <0.001 |
+|   data_in_IBUF[4]_inst                       |    <0.001 |
+|   data_in_IBUF[5]_inst                       |    <0.001 |
+|   data_in_IBUF[6]_inst                       |    <0.001 |
+|   data_in_IBUF[7]_inst                       |    <0.001 |
+|   dc10_inst                                  |     0.024 |
+|     PEs[0].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[0].pe_out_inst                       |     0.002 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[0].w_rom_inst                        |     0.006 |
+|       w_rom_inst                             |     0.006 |
+|         U                                    |     0.006 |
+|     dc_ctrl_inst                             |    <0.001 |
+|     fmap_in_shiftreg_inst                    |     0.015 |
+|   dc5_inst                                   |     0.655 |
+|     PEs[0].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[0].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[0].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[0].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[0].pe_dc_inst                        |    <0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[1].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[1].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[1].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[1].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[1].pe_dc_inst                        |    <0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[2].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[2].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[2].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[2].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[2].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[2].pe_dc_inst                        |     0.031 |
+|       conv_kernel_inst                       |     0.031 |
+|     PEs[2].w_rom_inst                        |     0.074 |
+|       w_rom_inst                             |     0.074 |
+|         U                                    |     0.074 |
+|     PEs[3].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[3].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[3].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[3].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[3].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[3].pe_dc_inst                        |     0.032 |
+|       conv_kernel_inst                       |     0.032 |
+|     PEs[3].w_rom_inst                        |     0.074 |
+|       w_rom_inst                             |     0.074 |
+|         U                                    |     0.074 |
+|     dc_ctrl_inst                             |     0.006 |
+|     fmap_in_shiftreg_inst                    |     0.431 |
+|   dc6_inst                                   |     1.492 |
+|     PEs[0].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[0].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[0].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[0].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[0].pe_dc_inst                        |     0.002 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.002 |
+|     PEs[1].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[1].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[1].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[1].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[1].pe_dc_inst                        |     0.002 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.002 |
+|     PEs[2].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[2].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[2].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[2].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[2].pe_dc_inst                        |     0.002 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.002 |
+|     PEs[3].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[3].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[3].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[3].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[3].pe_dc_inst                        |     0.002 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.002 |
+|     PEs[4].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[4].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[4].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[4].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[4].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[4].pe_dc_inst                        |     0.038 |
+|       conv_kernel_inst                       |     0.038 |
+|     PEs[4].w_rom_inst                        |     0.073 |
+|       w_rom_inst                             |     0.073 |
+|         U                                    |     0.073 |
+|     PEs[5].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[5].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[5].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[5].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[5].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[5].pe_dc_inst                        |     0.037 |
+|       conv_kernel_inst                       |     0.037 |
+|     PEs[5].w_rom_inst                        |     0.062 |
+|       w_rom_inst                             |     0.062 |
+|         U                                    |     0.062 |
+|     PEs[6].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[6].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[6].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[6].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[6].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[6].pe_dc_inst                        |     0.037 |
+|       conv_kernel_inst                       |     0.037 |
+|     PEs[6].w_rom_inst                        |     0.078 |
+|       w_rom_inst                             |     0.078 |
+|         U                                    |     0.078 |
+|     PEs[7].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[7].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[7].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[7].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[7].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[7].normref_sign_rom_inst             |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[7].pe_dc_inst                        |     0.037 |
+|       conv_kernel_inst                       |     0.037 |
+|     PEs[7].w_rom_inst                        |     0.072 |
+|       w_rom_inst                             |     0.072 |
+|         U                                    |     0.072 |
+|     dc_ctrl_inst                             |     0.010 |
+|     fmap_in_shiftreg_inst                    |     1.037 |
+|   dc7_inst                                   |     3.134 |
+|     PEs[0].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[0].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[0].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[0].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[0].pe_dc_inst                        |     0.002 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.002 |
+|     PEs[10].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[10].fmap_out_shiftreg_inst_1         |    <0.001 |
+|     PEs[10].fmap_out_shiftreg_inst_2         |    <0.001 |
+|     PEs[10].fmap_out_shiftreg_inst_3         |    <0.001 |
+|     PEs[10].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[10].pe_dc_inst                       |     0.037 |
+|       conv_kernel_inst                       |     0.037 |
+|     PEs[10].w_rom_inst                       |     0.104 |
+|       w_rom_inst                             |     0.104 |
+|         U                                    |     0.104 |
+|     PEs[11].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[11].fmap_out_shiftreg_inst_1         |    <0.001 |
+|     PEs[11].fmap_out_shiftreg_inst_2         |    <0.001 |
+|     PEs[11].fmap_out_shiftreg_inst_3         |    <0.001 |
+|     PEs[11].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[11].pe_dc_inst                       |     0.043 |
+|       conv_kernel_inst                       |     0.043 |
+|     PEs[11].w_rom_inst                       |     0.069 |
+|       w_rom_inst                             |     0.069 |
+|         U                                    |     0.069 |
+|     PEs[12].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[12].fmap_out_shiftreg_inst_1         |    <0.001 |
+|     PEs[12].fmap_out_shiftreg_inst_2         |    <0.001 |
+|     PEs[12].fmap_out_shiftreg_inst_3         |    <0.001 |
+|     PEs[12].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[12].normref_sign_rom_inst            |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[12].pe_dc_inst                       |     0.040 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.040 |
+|     PEs[12].w_rom_inst                       |     0.074 |
+|       w_rom_inst                             |     0.074 |
+|         U                                    |     0.074 |
+|     PEs[13].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[13].fmap_out_shiftreg_inst_1         |    <0.001 |
+|     PEs[13].fmap_out_shiftreg_inst_2         |    <0.001 |
+|     PEs[13].fmap_out_shiftreg_inst_3         |    <0.001 |
+|     PEs[13].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[13].pe_dc_inst                       |     0.037 |
+|       conv_kernel_inst                       |     0.037 |
+|     PEs[13].w_rom_inst                       |     0.073 |
+|       w_rom_inst                             |     0.073 |
+|         U                                    |     0.073 |
+|     PEs[14].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[14].fmap_out_shiftreg_inst_1         |    <0.001 |
+|     PEs[14].fmap_out_shiftreg_inst_2         |    <0.001 |
+|     PEs[14].fmap_out_shiftreg_inst_3         |    <0.001 |
+|     PEs[14].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[14].pe_dc_inst                       |     0.038 |
+|       conv_kernel_inst                       |     0.038 |
+|     PEs[14].w_rom_inst                       |     0.073 |
+|       w_rom_inst                             |     0.073 |
+|         U                                    |     0.073 |
+|     PEs[15].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[15].fmap_out_shiftreg_inst_1         |    <0.001 |
+|     PEs[15].fmap_out_shiftreg_inst_2         |    <0.001 |
+|     PEs[15].fmap_out_shiftreg_inst_3         |    <0.001 |
+|     PEs[15].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[15].pe_dc_inst                       |     0.037 |
+|       conv_kernel_inst                       |     0.037 |
+|     PEs[15].w_rom_inst                       |     0.071 |
+|       w_rom_inst                             |     0.071 |
+|         U                                    |     0.071 |
+|     PEs[1].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[1].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[1].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[1].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[1].pe_dc_inst                        |     0.002 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.002 |
+|     PEs[2].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[2].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[2].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[2].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[2].pe_dc_inst                        |     0.002 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.002 |
+|     PEs[3].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[3].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[3].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[3].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[3].pe_dc_inst                        |     0.002 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.002 |
+|     PEs[4].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[4].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[4].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[4].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[4].pe_dc_inst                        |     0.003 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.002 |
+|     PEs[5].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[5].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[5].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[5].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[5].pe_dc_inst                        |     0.002 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.002 |
+|     PEs[6].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[6].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[6].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[6].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[6].pe_dc_inst                        |     0.002 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.002 |
+|     PEs[7].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[7].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[7].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[7].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[7].pe_dc_inst                        |     0.002 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.002 |
+|     PEs[8].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[8].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[8].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[8].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[8].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[8].pe_dc_inst                        |     0.038 |
+|       conv_kernel_inst                       |     0.038 |
+|     PEs[8].w_rom_inst                        |     0.078 |
+|       w_rom_inst                             |     0.078 |
+|         U                                    |     0.078 |
+|     PEs[9].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[9].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[9].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[9].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[9].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[9].pe_dc_inst                        |     0.036 |
+|       conv_kernel_inst                       |     0.036 |
+|     PEs[9].w_rom_inst                        |     0.073 |
+|       w_rom_inst                             |     0.073 |
+|         U                                    |     0.073 |
+|     dc_ctrl_inst                             |     0.009 |
+|     fmap_in_shiftreg_inst                    |     2.177 |
+|   dc8_inst                                   |     1.083 |
+|     PEs[0].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[0].pe_dc_inst                        |     0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.001 |
+|     PEs[10].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[10].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[10].pe_dc_inst                       |     0.017 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.017 |
+|     PEs[10].w_rom_inst                       |     0.025 |
+|       w_rom_inst                             |     0.025 |
+|         U                                    |     0.025 |
+|     PEs[11].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[11].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[11].pe_dc_inst                       |     0.017 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.017 |
+|     PEs[11].w_rom_inst                       |     0.025 |
+|       w_rom_inst                             |     0.025 |
+|         U                                    |     0.025 |
+|     PEs[12].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[12].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[12].pe_dc_inst                       |     0.016 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.016 |
+|     PEs[12].w_rom_inst                       |     0.025 |
+|       w_rom_inst                             |     0.025 |
+|         U                                    |     0.025 |
+|     PEs[13].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[13].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[13].pe_dc_inst                       |     0.017 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.017 |
+|     PEs[13].w_rom_inst                       |     0.025 |
+|       w_rom_inst                             |     0.025 |
+|         U                                    |     0.025 |
+|     PEs[14].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[14].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[14].pe_dc_inst                       |     0.016 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.016 |
+|     PEs[14].w_rom_inst                       |     0.025 |
+|       w_rom_inst                             |     0.025 |
+|         U                                    |     0.025 |
+|     PEs[15].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[15].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[15].pe_dc_inst                       |     0.016 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.016 |
+|     PEs[15].w_rom_inst                       |     0.025 |
+|       w_rom_inst                             |     0.025 |
+|         U                                    |     0.025 |
+|     PEs[1].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[1].pe_dc_inst                        |     0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.001 |
+|     PEs[2].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[2].pe_dc_inst                        |     0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.001 |
+|     PEs[3].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[3].pe_dc_inst                        |     0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.001 |
+|     PEs[4].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[4].pe_dc_inst                        |     0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.001 |
+|     PEs[5].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[5].pe_dc_inst                        |     0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.001 |
+|     PEs[6].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[6].pe_dc_inst                        |     0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.001 |
+|     PEs[7].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[7].pe_dc_inst                        |     0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.001 |
+|     PEs[8].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[8].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[8].pe_dc_inst                        |     0.017 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.017 |
+|     PEs[8].w_rom_inst                        |     0.025 |
+|       w_rom_inst                             |     0.025 |
+|         U                                    |     0.025 |
+|     PEs[9].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[9].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[9].pe_dc_inst                        |     0.016 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |     0.016 |
+|     PEs[9].w_rom_inst                        |     0.026 |
+|       w_rom_inst                             |     0.026 |
+|         U                                    |     0.026 |
+|     dc_ctrl_inst                             |     0.001 |
+|     fmap_in_shiftreg_inst                    |     0.733 |
+|   dc9_inst                                   |     0.194 |
+|     PEs[0].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[0].pe_dc_inst                        |    <0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[10].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[10].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[10].normref_sign_rom_inst            |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[10].pe_dc_inst                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[10].w_rom_inst                       |     0.006 |
+|       w_rom_inst                             |     0.006 |
+|         U                                    |     0.006 |
+|     PEs[11].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[11].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[11].normref_sign_rom_inst            |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[11].pe_dc_inst                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[11].w_rom_inst                       |     0.007 |
+|       w_rom_inst                             |     0.007 |
+|         U                                    |     0.007 |
+|     PEs[12].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[12].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[12].normref_sign_rom_inst            |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[12].pe_dc_inst                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[12].w_rom_inst                       |     0.007 |
+|       w_rom_inst                             |     0.007 |
+|         U                                    |     0.007 |
+|     PEs[13].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[13].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[13].normref_sign_rom_inst            |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[13].pe_dc_inst                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[13].w_rom_inst                       |     0.008 |
+|       w_rom_inst                             |     0.008 |
+|         U                                    |     0.008 |
+|     PEs[14].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[14].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[14].normref_sign_rom_inst            |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[14].pe_dc_inst                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[14].w_rom_inst                       |     0.007 |
+|       w_rom_inst                             |     0.007 |
+|         U                                    |     0.007 |
+|     PEs[15].fmap_out_shiftreg_inst_0         |    <0.001 |
+|     PEs[15].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[15].normref_sign_rom_inst            |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[15].pe_dc_inst                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[15].w_rom_inst                       |     0.007 |
+|       w_rom_inst                             |     0.007 |
+|         U                                    |     0.007 |
+|     PEs[1].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[1].pe_dc_inst                        |    <0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[2].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[2].pe_dc_inst                        |    <0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[3].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[3].pe_dc_inst                        |    <0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[4].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[4].pe_dc_inst                        |    <0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[5].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[5].pe_dc_inst                        |    <0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[6].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[6].pe_dc_inst                        |    <0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[7].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[7].pe_dc_inst                        |    <0.001 |
+|       bn_binrz_inst                          |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[8].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[8].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[8].normref_sign_rom_inst             |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[8].pe_dc_inst                        |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[8].w_rom_inst                        |     0.006 |
+|       w_rom_inst                             |     0.006 |
+|         U                                    |     0.006 |
+|     PEs[9].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[9].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[9].normref_sign_rom_inst             |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[9].pe_dc_inst                        |    <0.001 |
+|       conv_kernel_inst                       |    <0.001 |
+|     PEs[9].w_rom_inst                        |     0.006 |
+|       w_rom_inst                             |     0.006 |
+|         U                                    |     0.006 |
+|     dc_ctrl_inst                             |     0.002 |
+|     fmap_in_shiftreg_inst                    |     0.129 |
+|   ec1_inst                                   |     2.359 |
+|     PEs[0].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[0].pe_ec_inst                        |     0.002 |
+|     PEs[10].fmap_out_shiftreg_inst           |    <0.001 |
+|     PEs[10].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[10].pe_ec_inst                       |     0.043 |
+|     PEs[10].w_rom_inst                       |     0.032 |
+|       w_rom_inst                             |     0.032 |
+|         U                                    |     0.032 |
+|     PEs[11].fmap_out_shiftreg_inst           |    <0.001 |
+|     PEs[11].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[11].normref_sign_rom_inst            |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[11].pe_ec_inst                       |     0.040 |
+|     PEs[11].w_rom_inst                       |     0.026 |
+|       w_rom_inst                             |     0.026 |
+|         U                                    |     0.026 |
+|     PEs[12].fmap_out_shiftreg_inst           |    <0.001 |
+|     PEs[12].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[12].normref_sign_rom_inst            |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[12].pe_ec_inst                       |     0.039 |
+|     PEs[12].w_rom_inst                       |     0.031 |
+|       w_rom_inst                             |     0.031 |
+|         U                                    |     0.031 |
+|     PEs[13].fmap_out_shiftreg_inst           |    <0.001 |
+|     PEs[13].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[13].pe_ec_inst                       |     0.040 |
+|     PEs[13].w_rom_inst                       |     0.026 |
+|       w_rom_inst                             |     0.026 |
+|         U                                    |     0.026 |
+|     PEs[14].fmap_out_shiftreg_inst           |    <0.001 |
+|     PEs[14].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[14].normref_sign_rom_inst            |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[14].pe_ec_inst                       |     0.040 |
+|     PEs[14].w_rom_inst                       |     0.028 |
+|       w_rom_inst                             |     0.028 |
+|         U                                    |     0.028 |
+|     PEs[15].fmap_out_shiftreg_inst           |    <0.001 |
+|     PEs[15].normref_rom_inst                 |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[15].normref_sign_rom_inst            |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[15].pe_ec_inst                       |     0.040 |
+|     PEs[15].w_rom_inst                       |     0.026 |
+|       w_rom_inst                             |     0.026 |
+|         U                                    |     0.026 |
+|     PEs[1].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[1].pe_ec_inst                        |     0.002 |
+|     PEs[2].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[2].pe_ec_inst                        |     0.002 |
+|     PEs[3].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[3].pe_ec_inst                        |     0.002 |
+|     PEs[4].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[4].pe_ec_inst                        |     0.002 |
+|     PEs[5].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[5].pe_ec_inst                        |     0.002 |
+|     PEs[6].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[6].pe_ec_inst                        |     0.002 |
+|     PEs[7].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[7].pe_ec_inst                        |     0.002 |
+|     PEs[8].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[8].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[8].normref_sign_rom_inst             |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[8].pe_ec_inst                        |     0.039 |
+|     PEs[8].w_rom_inst                        |     0.026 |
+|       w_rom_inst                             |     0.026 |
+|         U                                    |     0.026 |
+|     PEs[9].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[9].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[9].pe_ec_inst                        |     0.039 |
+|     PEs[9].w_rom_inst                        |     0.026 |
+|       w_rom_inst                             |     0.026 |
+|         U                                    |     0.026 |
+|     ec_ctrl_inst                             |     0.005 |
+|     fmap_in_shiftreg_inst                    |     1.776 |
+|     index_sram_inst                          |     0.010 |
+|       U                                      |     0.010 |
+|   ec2_inst                                   |     6.512 |
+|     PEs[0].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[0].pe_ec_inst                        |     0.009 |
+|       binzr_inst                             |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       genblk1[0].genblk1[0].conv_kernel_inst |    <0.001 |
+|       genblk1[0].genblk1[1].conv_kernel_inst |    <0.001 |
+|       genblk1[1].genblk1[0].conv_kernel_inst |     0.004 |
+|       genblk1[1].genblk1[1].conv_kernel_inst |     0.004 |
+|     PEs[1].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[1].pe_ec_inst                        |     0.009 |
+|       binzr_inst                             |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       genblk1[0].genblk1[0].conv_kernel_inst |    <0.001 |
+|       genblk1[0].genblk1[1].conv_kernel_inst |    <0.001 |
+|       genblk1[1].genblk1[0].conv_kernel_inst |     0.004 |
+|       genblk1[1].genblk1[1].conv_kernel_inst |     0.004 |
+|     PEs[2].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[2].pe_ec_inst                        |     0.009 |
+|       binzr_inst                             |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       genblk1[0].genblk1[0].conv_kernel_inst |    <0.001 |
+|       genblk1[0].genblk1[1].conv_kernel_inst |    <0.001 |
+|       genblk1[1].genblk1[0].conv_kernel_inst |     0.004 |
+|       genblk1[1].genblk1[1].conv_kernel_inst |     0.004 |
+|     PEs[3].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[3].pe_ec_inst                        |     0.009 |
+|       binzr_inst                             |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       genblk1[0].genblk1[0].conv_kernel_inst |    <0.001 |
+|       genblk1[0].genblk1[1].conv_kernel_inst |    <0.001 |
+|       genblk1[1].genblk1[0].conv_kernel_inst |     0.004 |
+|       genblk1[1].genblk1[1].conv_kernel_inst |     0.004 |
+|     PEs[4].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[4].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[4].normref_sign_rom_inst             |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[4].pe_ec_inst                        |     0.163 |
+|       genblk1[0].genblk1[0].conv_kernel_inst |     0.041 |
+|       genblk1[0].genblk1[1].conv_kernel_inst |     0.040 |
+|       genblk1[1].genblk1[0].conv_kernel_inst |     0.041 |
+|       genblk1[1].genblk1[1].conv_kernel_inst |     0.041 |
+|     PEs[4].w_rom_inst                        |     0.125 |
+|       w_rom_inst                             |     0.125 |
+|         U                                    |     0.125 |
+|     PEs[5].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[5].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[5].normref_sign_rom_inst             |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[5].pe_ec_inst                        |     0.164 |
+|       genblk1[0].genblk1[0].conv_kernel_inst |     0.041 |
+|       genblk1[0].genblk1[1].conv_kernel_inst |     0.041 |
+|       genblk1[1].genblk1[0].conv_kernel_inst |     0.041 |
+|       genblk1[1].genblk1[1].conv_kernel_inst |     0.041 |
+|     PEs[5].w_rom_inst                        |     0.136 |
+|       w_rom_inst                             |     0.136 |
+|         U                                    |     0.136 |
+|     PEs[6].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[6].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[6].normref_sign_rom_inst             |     0.001 |
+|       w_rom_inst                             |     0.001 |
+|         U                                    |     0.001 |
+|     PEs[6].pe_ec_inst                        |     0.174 |
+|       genblk1[0].genblk1[0].conv_kernel_inst |     0.043 |
+|       genblk1[0].genblk1[1].conv_kernel_inst |     0.045 |
+|       genblk1[1].genblk1[0].conv_kernel_inst |     0.042 |
+|       genblk1[1].genblk1[1].conv_kernel_inst |     0.044 |
+|     PEs[6].w_rom_inst                        |     0.131 |
+|       w_rom_inst                             |     0.131 |
+|         U                                    |     0.131 |
+|     PEs[7].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[7].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[7].normref_sign_rom_inst             |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[7].pe_ec_inst                        |     0.182 |
+|       genblk1[0].genblk1[0].conv_kernel_inst |     0.045 |
+|       genblk1[0].genblk1[1].conv_kernel_inst |     0.048 |
+|       genblk1[1].genblk1[0].conv_kernel_inst |     0.045 |
+|       genblk1[1].genblk1[1].conv_kernel_inst |     0.044 |
+|     PEs[7].w_rom_inst                        |     0.125 |
+|       w_rom_inst                             |     0.125 |
+|         U                                    |     0.125 |
+|     ec_ctrl_inst                             |     0.013 |
+|     fmap_in_shiftreg_inst                    |     5.247 |
+|     index_sram_inst                          |     0.007 |
+|       U                                      |     0.007 |
+|   ec3_inst                                   |     3.255 |
+|     PEs[0].fmap_out_shiftreg_inst            |     0.001 |
+|     PEs[0].pe_ec_inst                        |     0.007 |
+|       binzr_inst                             |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       genblk1[0].genblk1[0].conv_kernel_inst |    <0.001 |
+|       genblk1[0].genblk1[1].conv_kernel_inst |    <0.001 |
+|       genblk1[1].genblk1[0].conv_kernel_inst |     0.003 |
+|       genblk1[1].genblk1[1].conv_kernel_inst |     0.003 |
+|     PEs[1].fmap_out_shiftreg_inst            |     0.001 |
+|     PEs[1].pe_ec_inst                        |     0.006 |
+|       binzr_inst                             |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       genblk1[0].genblk1[0].conv_kernel_inst |    <0.001 |
+|       genblk1[0].genblk1[1].conv_kernel_inst |    <0.001 |
+|       genblk1[1].genblk1[0].conv_kernel_inst |     0.003 |
+|       genblk1[1].genblk1[1].conv_kernel_inst |     0.003 |
+|     PEs[2].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[2].normref_sign_rom_inst             |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[2].pe_ec_inst                        |     0.169 |
+|       genblk1[0].genblk1[0].conv_kernel_inst |     0.041 |
+|       genblk1[0].genblk1[1].conv_kernel_inst |     0.042 |
+|       genblk1[1].genblk1[0].conv_kernel_inst |     0.044 |
+|       genblk1[1].genblk1[1].conv_kernel_inst |     0.043 |
+|     PEs[3].fmap_out_shiftreg_inst            |    <0.001 |
+|     PEs[3].normref_sign_rom_inst             |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[3].pe_ec_inst                        |     0.163 |
+|       genblk1[0].genblk1[0].conv_kernel_inst |     0.040 |
+|       genblk1[0].genblk1[1].conv_kernel_inst |     0.041 |
+|       genblk1[1].genblk1[0].conv_kernel_inst |     0.041 |
+|       genblk1[1].genblk1[1].conv_kernel_inst |     0.041 |
+|     ec_ctrl_inst                             |     0.287 |
+|     fmap_in_shiftreg_inst                    |     2.615 |
+|     index_sram_inst                          |     0.003 |
+|       U                                      |     0.003 |
+|   ec4_inst                                   |     0.745 |
+|     PEs[0].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[0].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[0].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[0].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[0].pe_edc_inst                       |     0.006 |
+|       binzr_inst                             |    <0.001 |
+|         comparator_2_0                       |    <0.001 |
+|       genblk2[0].genblk1[0].conv_kernel_inst |     0.002 |
+|       genblk2[0].genblk1[1].conv_kernel_inst |     0.001 |
+|       genblk2[1].genblk1[0].conv_kernel_inst |     0.002 |
+|       genblk2[1].genblk1[1].conv_kernel_inst |     0.002 |
+|     PEs[1].fmap_out_shiftreg_inst_0          |    <0.001 |
+|     PEs[1].fmap_out_shiftreg_inst_1          |    <0.001 |
+|     PEs[1].fmap_out_shiftreg_inst_2          |    <0.001 |
+|     PEs[1].fmap_out_shiftreg_inst_3          |    <0.001 |
+|     PEs[1].normref_rom_inst                  |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[1].normref_sign_rom_inst             |    <0.001 |
+|       w_rom_inst                             |    <0.001 |
+|         U                                    |    <0.001 |
+|     PEs[1].pe_edc_inst                       |     0.100 |
+|       genblk2[0].genblk1[0].conv_kernel_inst |     0.024 |
+|       genblk2[0].genblk1[1].conv_kernel_inst |     0.026 |
+|       genblk2[1].genblk1[0].conv_kernel_inst |     0.025 |
+|       genblk2[1].genblk1[1].conv_kernel_inst |     0.026 |
+|     edc_ctrl_inst                            |     0.004 |
+|     fmap_in_shiftreg_inst                    |     0.627 |
+|   in_en_IBUF_inst                            |    <0.001 |
+|   input_fifo_inst                            |    <0.001 |
+|     fifomem                                  |    <0.001 |
+|       mem_reg_0_7_0_5                        |    <0.001 |
+|     rptr_empty                               |    <0.001 |
+|     sync_r2w                                 |    <0.001 |
+|     sync_w2r                                 |    <0.001 |
+|     wptr_full                                |    <0.001 |
+|   rst_IBUF_inst                              |    <0.001 |
+|   start_IBUF_inst                            |    <0.001 |
++----------------------------------------------+-----------+
+
+

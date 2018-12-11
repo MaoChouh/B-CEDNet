@@ -1,0 +1,193 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Dec 10 05:02:24 2018
+| Host         : DESKTOP-M0UOV8J running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file BCEDN_TOP_control_sets_placed.rpt
+| Design       : BCEDN_TOP
+| Device       : xcvu9p
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   122 |
+| Unused register locations in slices containing registers |    90 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      4 |            6 |
+|      6 |            2 |
+|      8 |            5 |
+|     10 |           14 |
+|     12 |            9 |
+|     14 |            5 |
+|    16+ |           80 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             218 |           62 |
+| No           | No                    | Yes                    |              80 |            5 |
+| No           | Yes                   | No                     |            1580 |          233 |
+| Yes          | No                    | No                     |           16274 |         1383 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |          124986 |        17742 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+|                  Clock Signal                 |                             Enable Signal                             |                      Set/Reset Signal                     | Slice Load Count | Bel Load Count |
++-----------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+|  ad_inst/ad_ctrl_inst/pad_mux_sel_reg_i_2_n_0 |                                                                       |                                                           |                0 |              2 |
+|  clkw_OBUF_BUFG                               | ec3_inst/ec_ctrl_inst/w_rom_en                                        |                                                           |                1 |              4 |
+|  clkw_OBUF_BUFG                               | dc5_inst/dc_ctrl_inst/p_30_out                                        | dc5_inst/dc_ctrl_inst/upool_mux_sel_dl_2[0][1]_i_1_n_0    |                0 |              4 |
+|  clkw_OBUF_BUFG                               | dc7_inst/dc_ctrl_inst/p_31_out                                        | dc7_inst/dc_ctrl_inst/upool_mux_sel_dl_2[0][1]_i_1__1_n_0 |                1 |              4 |
+| ~clkw_OBUF_BUFG                               |                                                                       |                                                           |                2 |              4 |
+|  clkw_OBUF_BUFG                               | dc6_inst/dc_ctrl_inst/p_30_out                                        | dc6_inst/dc_ctrl_inst/upool_mux_sel_dl_2[0][1]_i_1__0_n_0 |                0 |              4 |
+|  clkw_OBUF_BUFG                               | ec4_inst/edc_ctrl_inst/p_count[2]_i_2_n_0                             | ec4_inst/edc_ctrl_inst/p_count[2]_i_1_n_0                 |                1 |              4 |
+|  clkw_OBUF_BUFG                               | ec4_inst/edc_ctrl_inst/col_count[2]_i_2_n_0                           | ec4_inst/edc_ctrl_inst/col_count[2]_i_1__2_n_0            |                1 |              6 |
+|  clkw_OBUF_BUFG                               | dc5_inst/dc_ctrl_inst/col_count[2]_i_2__0_n_0                         | dc5_inst/dc_ctrl_inst/col_count[2]_i_1__3_n_0             |                1 |              6 |
+|  clkw_OBUF_BUFG                               | ec4_inst/edc_ctrl_inst/fmap_out_shiftreg_en                           |                                                           |                4 |              8 |
+|  clkw_OBUF_BUFG                               | dc8_inst/dc_ctrl_inst/FSM_sequential_state[3]_i_1__0_n_0              | rst_dl_reg_n_0_BUFG                                       |                1 |              8 |
+|  clkw_OBUF_BUFG                               | dc6_inst/dc_ctrl_inst/col_count[3]_i_2__0_n_0                         | dc6_inst/dc_ctrl_inst/col_count[3]_i_1__2_n_0             |                2 |              8 |
+|  clkw_OBUF_BUFG                               | ec3_inst/ec_ctrl_inst/col_count[3]_i_2_n_0                            | ec3_inst/ec_ctrl_inst/col_count[3]_i_1__1_n_0             |                2 |              8 |
+|  clkw_OBUF_BUFG                               | ec4_inst/edc_ctrl_inst/FSM_sequential_state[3]_i_1_n_0                | rst_dl_reg_n_0_BUFG                                       |                3 |              8 |
+|  clkw_OBUF_BUFG                               | dc10_inst/dc_ctrl_inst/FSM_onehot_state[10]_i_1__7_n_0                | rst_dl_reg_n_0_BUFG                                       |                2 |             10 |
+|  clkw_OBUF_BUFG                               |                                                                       | ad_inst/ad_ctrl_inst/output_count[4]_i_1__8_n_0           |                2 |             10 |
+|  clkw_OBUF_BUFG                               | ec2_inst/ec_ctrl_inst/col_count[4]_i_2_n_0                            | ec2_inst/ec_ctrl_inst/col_count[4]_i_1__0_n_0             |                1 |             10 |
+|  clkw_OBUF_BUFG                               | ec4_inst/edc_ctrl_inst/row_count[4]_i_2_n_0                           | ec4_inst/edc_ctrl_inst/row_count[4]_i_1__2_n_0            |                2 |             10 |
+|  clkw_OBUF_BUFG                               |                                                                       | dc10_inst/dc_ctrl_inst/output_count[4]_i_1__9_n_0         |                2 |             10 |
+|  clkw_OBUF_BUFG                               | dc10_inst/dc_ctrl_inst/w_rom_addr[4]_i_2__7_n_0                       | dc10_inst/dc_ctrl_inst/w_rom_addr[4]_i_1__9_n_0           |                1 |             10 |
+|  clkw_OBUF_BUFG                               |                                                                       | dc9_inst/dc_ctrl_inst/output_count[4]_i_1__7_n_0          |                1 |             10 |
+|  clkw_OBUF_BUFG                               |                                                                       | dc8_inst/dc_ctrl_inst/output_count[4]_i_1__6_n_0          |                1 |             10 |
+|  clkw_OBUF_BUFG                               | dc7_inst/dc_ctrl_inst/w_rom_addr[4]_i_2__3_n_0                        | dc7_inst/dc_ctrl_inst/w_rom_addr[4]_i_1__5_n_0            |                0 |             10 |
+|  clkw_OBUF_BUFG                               | dc7_inst/dc_ctrl_inst/col_count[4]_i_2__0_n_0                         | dc7_inst/dc_ctrl_inst/col_count[4]_i_1__1_n_0             |                1 |             10 |
+|  clkw_OBUF_BUFG                               |                                                                       | ec1_inst/ec_ctrl_inst/output_count[4]_i_1_n_0             |                1 |             10 |
+|  clkw_OBUF_BUFG                               | dc5_inst/dc_ctrl_inst/row_count[4]_i_2__0_n_0                         | dc5_inst/dc_ctrl_inst/row_count[4]_i_1__3_n_0             |                1 |             10 |
+|  clkw_OBUF_BUFG                               | dc9_inst/dc_ctrl_inst/FSM_onehot_state[10]_i_1__5_n_0                 | rst_dl_reg_n_0_BUFG                                       |                1 |             10 |
+|  clkw_OBUF_BUFG                               | dc8_inst/dc_ctrl_inst/w_rom_addr[4]_i_1__6_n_0                        |                                                           |                1 |             10 |
+|  clkw_OBUF_BUFG                               |                                                                       | ec2_inst/ec_ctrl_inst/output_count[5]_i_1_n_0             |                1 |             12 |
+|  clkw_OBUF_BUFG                               | ec3_inst/ec_ctrl_inst/row_count[5]_i_2_n_0                            | ec3_inst/ec_ctrl_inst/row_count[5]_i_1__1_n_0             |                1 |             12 |
+|  clkw_OBUF_BUFG                               |                                                                       | dc7_inst/dc_ctrl_inst/output_count[5]_i_1__4_n_0          |                2 |             12 |
+|  clkw_OBUF_BUFG                               | ec1_inst/ec_ctrl_inst/col_count[5]_i_2_n_0                            | ec1_inst/ec_ctrl_inst/col_count[5]_i_1_n_0                |                1 |             12 |
+|  clkw_OBUF_BUFG                               | dc10_inst/dc_ctrl_inst/col_count[5]_i_2__3_n_0                        | dc10_inst/dc_ctrl_inst/col_count[5]_i_1__3_n_0            |                2 |             12 |
+|  clkw_OBUF_BUFG                               | dc6_inst/dc_ctrl_inst/row_count[5]_i_2__0_n_0                         | dc6_inst/dc_ctrl_inst/row_count[5]_i_1__2_n_0             |                1 |             12 |
+|  clkw_OBUF_BUFG                               | dc9_inst/dc_ctrl_inst/col_count[5]_i_2__1_n_0                         | dc9_inst/dc_ctrl_inst/col_count[5]_i_1__1_n_0             |                3 |             12 |
+|  clkw_OBUF_BUFG                               | dc8_inst/dc_ctrl_inst/col_count[5]_i_2__0_n_0                         | dc8_inst/dc_ctrl_inst/col_count[5]_i_1__0_n_0             |                1 |             12 |
+|  clkw_OBUF_BUFG                               | ad_inst/ad_ctrl_inst/col_count[5]_i_2__2_n_0                          | ad_inst/ad_ctrl_inst/col_count[5]_i_1__2_n_0              |                2 |             12 |
+|  clkw_OBUF_BUFG                               |                                                                       | dc6_inst/dc_ctrl_inst/output_count[6]_i_1__2_n_0          |                3 |             14 |
+|  clkw_OBUF_BUFG                               | ec2_inst/ec_ctrl_inst/row_count[6]_i_2__0_n_0                         | ec2_inst/ec_ctrl_inst/row_count[6]_i_1__0_n_0             |                1 |             14 |
+|  clkw_OBUF_BUFG                               |                                                                       | ec3_inst/ec_ctrl_inst/output_count[6]_i_1_n_0             |                1 |             14 |
+|  clkw_OBUF_BUFG                               | dc7_inst/dc_ctrl_inst/row_count[6]_i_2__1_n_0                         | dc7_inst/dc_ctrl_inst/row_count[6]_i_1__1_n_0             |                2 |             14 |
+|  clkw_OBUF_BUFG                               | dc6_inst/dc_ctrl_inst/p_count[1]_i_2__0_n_0                           | dc6_inst/dc_ctrl_inst/p_count[1]_i_1__2_n_0               |                1 |             14 |
+|  clkw_OBUF_BUFG                               |                                                                       | dc5_inst/dc_ctrl_inst/output_count[7]_i_1__0_n_0          |                4 |             16 |
+|  clkw_OBUF_BUFG                               | dc5_inst/dc_ctrl_inst/p_count[2]_i_2__0_n_0                           | dc5_inst/dc_ctrl_inst/p_count[2]_i_1__0_n_0               |                4 |             16 |
+|  clkw_OBUF_BUFG                               | dc10_inst/dc_ctrl_inst/row_count[7]_i_2__3_n_0                        | dc10_inst/dc_ctrl_inst/row_count[7]_i_1__3_n_0            |                3 |             16 |
+|  clkw_OBUF_BUFG                               |                                                                       | ec4_inst/edc_ctrl_inst/output_count[7]_i_1_n_0            |                1 |             16 |
+|  clkw_OBUF_BUFG                               | ec1_inst/ec_ctrl_inst/row_count[7]_i_2_n_0                            | ec1_inst/ec_ctrl_inst/row_count[7]_i_1_n_0                |                2 |             16 |
+|  clkw_OBUF_BUFG                               | dc5_inst/dc_ctrl_inst/fmap_out_shiftreg_en                            |                                                           |                8 |             16 |
+|  clkw_OBUF_BUFG                               | dc9_inst/dc_ctrl_inst/row_count[7]_i_2__1_n_0                         | dc9_inst/dc_ctrl_inst/row_count[7]_i_1__1_n_0             |                2 |             16 |
+|  clkw_OBUF_BUFG                               | ad_inst/ad_ctrl_inst/row_count[7]_i_2__2_n_0                          | ad_inst/ad_ctrl_inst/row_count[7]_i_1__2_n_0              |                3 |             16 |
+|  clkw_OBUF_BUFG                               | dc8_inst/dc_ctrl_inst/row_count[7]_i_2__0_n_0                         | dc8_inst/dc_ctrl_inst/row_count[7]_i_1__0_n_0             |                3 |             16 |
+|  clkw_OBUF_BUFG                               | ad_inst/ad_ctrl_inst/FSM_onehot_state[10]_i_1__6_n_0                  | rst_dl_reg_n_0_BUFG                                       |                3 |             18 |
+|  clkw_OBUF_BUFG                               | ec1_inst/ec_ctrl_inst/FSM_onehot_state[12]_i_2_n_0                    | rst_dl_reg_n_0_BUFG                                       |                3 |             22 |
+|  clkw_OBUF_BUFG                               | dc6_inst/dc_ctrl_inst/FSM_onehot_state[10]_i_1__3_n_0                 | rst_dl_reg_n_0_BUFG                                       |                2 |             22 |
+|  clkw_OBUF_BUFG                               | dc5_inst/dc_ctrl_inst/FSM_onehot_state[10]_i_1__2_n_0                 | rst_dl_reg_n_0_BUFG                                       |                5 |             22 |
+|  clkw_OBUF_BUFG                               | dc7_inst/dc_ctrl_inst/FSM_onehot_state[10]_i_1__4_n_0                 | rst_dl_reg_n_0_BUFG                                       |                5 |             22 |
+|  clkw_OBUF_BUFG                               | data_rdy_dl                                                           | input_count[11]_i_1_n_0                                   |                3 |             24 |
+|  clkw_OBUF_BUFG                               | ec3_inst/ec_ctrl_inst/FSM_onehot_state[12]_i_1__1_n_0                 | rst_dl_reg_n_0_BUFG                                       |                4 |             26 |
+|  clkw_OBUF_BUFG                               | dc5_inst/dc_ctrl_inst/index_sram_addr[12]_i_1__0_n_0                  | rst_dl_reg_n_0_BUFG                                       |                3 |             26 |
+|  clkw_OBUF_BUFG                               | ec3_inst/ec_ctrl_inst/index_sram_wr                                   | ec3_inst/ec_ctrl_inst/index_sram_addr[12]_i_1_n_0         |                3 |             26 |
+|  clkw_OBUF_BUFG                               | ec2_inst/ec_ctrl_inst/FSM_onehot_state[12]_i_1__0_n_0                 | rst_dl_reg_n_0_BUFG                                       |                1 |             26 |
+|  clkw_OBUF_BUFG                               | dc6_inst/dc_ctrl_inst/index_sram_addr[13]_i_1__0_n_0                  | rst_dl_reg_n_0_BUFG                                       |                4 |             28 |
+|  clkw_OBUF_BUFG                               | ec2_inst/ec_ctrl_inst/index_sram_wr                                   | ec2_inst/ec_ctrl_inst/index_sram_addr[13]_i_1_n_0         |                3 |             28 |
+|  clkw_OBUF_BUFG                               | ec1_inst/ec_ctrl_inst/index_sram_wr                                   | ec1_inst/ec_ctrl_inst/index_sram_addr[14]_i_1_n_0         |                3 |             30 |
+|  clkw_OBUF_BUFG                               | dc7_inst/dc_ctrl_inst/index_sram_addr[14]_i_1__0_n_0                  | rst_dl_reg_n_0_BUFG                                       |                5 |             30 |
+|  clkw_OBUF_BUFG                               | dc6_inst/dc_ctrl_inst/fmap_out_shiftreg_en                            |                                                           |               16 |             32 |
+|  clkw_OBUF_BUFG                               | input_fifo_inst/wptr_full/rdata_reg[1]                                |                                                           |                1 |             32 |
+|  clkw_OBUF_BUFG                               |                                                                       | ec4_inst/edc_ctrl_inst/w_rom_addr[7]_i_1_n_0              |               15 |             42 |
+|  clkw_OBUF_BUFG                               | ad_inst/ad_ctrl_inst/w_rom_en                                         |                                                           |                6 |             54 |
+|  clkw_OBUF_BUFG                               | ec4_inst/edc_ctrl_inst/fmap_out_shiftreg_en_bufg_place                |                                                           |                4 |             64 |
+|  clkw_OBUF_BUFG                               | dc7_inst/dc_ctrl_inst/fmap_out_shiftreg_en                            |                                                           |               32 |             64 |
+|  clkw_OBUF_BUFG                               | dc6_inst/dc_ctrl_inst/data_reg_127                                    |                                                           |               13 |             90 |
+|  clkw_OBUF_BUFG                               |                                                                       | ec1_inst/ec_ctrl_inst/w_rom_addr[4]_i_1_n_0               |               40 |             96 |
+|  clkw_OBUF_BUFG                               | ec2_inst/ec_ctrl_inst/w_rom_en                                        |                                                           |               22 |            102 |
+|  clkw_OBUF_BUFG                               | ad_inst/ad_ctrl_inst/fmap_in_shiftreg_en                              |                                                           |               12 |            136 |
+|  clkw_OBUF_BUFG                               | dc5_inst/dc_ctrl_inst/w_rom_addr[6]_i_1__1_n_0                        | rst_dl_reg_n_0_BUFG                                       |               58 |            162 |
+|  clkw_OBUF_BUFG                               | ec1_inst/ec_ctrl_inst/E[0]                                            |                                                           |               34 |            170 |
+|  clkw_OBUF_BUFG                               | dc7_inst/dc_ctrl_inst/E[0]                                            |                                                           |               29 |            170 |
+|  clkw_OBUF_BUFG                               | dc9_inst/dc_ctrl_inst/w_rom_en                                        |                                                           |               23 |            190 |
+|  clkw_OBUF_BUFG                               | dc8_inst/dc_ctrl_inst/data_reg_127                                    |                                                           |               34 |            192 |
+|  clkw_OBUF_BUFG                               | dc5_inst/dc_ctrl_inst/fmap_out_shiftreg_en_bufg_place                 |                                                           |               16 |            192 |
+|  clkw_OBUF_BUFG                               | ad_inst/ad_ctrl_inst/E[0]                                             | rst_dl_reg_n_0_BUFG                                       |               75 |            256 |
+|  clkw_OBUF_BUFG                               | dc6_inst/dc_ctrl_inst/w_rom_addr[5]_i_1__3_n_0                        | rst_dl_reg_n_0_BUFG                                       |              100 |            262 |
+|  clkw_OBUF_BUFG                               |                                                                       | ec2_inst/ec_ctrl_inst/w_rom_addr[5]_i_1_n_0               |               33 |            280 |
+|  clkw_OBUF_BUFG                               | ad_inst/ad_ctrl_inst/fmap_in_shiftreg_en                              | rst_dl_reg_n_0_BUFG                                       |               42 |            334 |
+|  clkw_OBUF_BUFG                               |                                                                       |                                                           |               71 |            360 |
+|  clkw_OBUF_BUFG                               | dc6_inst/dc_ctrl_inst/fmap_out_shiftreg_en_bufg_place                 |                                                           |               32 |            448 |
+|  clkw_OBUF_BUFG                               | ec1_inst/ec_ctrl_inst/fmap_in_shiftreg_en_bufg_place                  |                                                           |               57 |            768 |
+|  clkw_OBUF_BUFG                               | ec1_inst/ec_ctrl_inst/fmap_in_shiftreg_en                             |                                                           |               57 |            768 |
+|  clkw_OBUF_BUFG                               | dc7_inst/dc_ctrl_inst/fmap_out_shiftreg_en_bufg_place                 |                                                           |               64 |            960 |
+|  clkw_OBUF_BUFG                               | dc9_inst/dc_ctrl_inst/E[0]                                            | rst_dl_reg_n_0_BUFG                                       |               21 |           1024 |
+|  clkw_OBUF_BUFG                               | ec3_inst/ec_ctrl_inst/index_sram_wr                                   | rst_dl_reg_n_0_BUFG                                       |              178 |           1024 |
+|  clkw_OBUF_BUFG                               | dc10_inst/dc_ctrl_inst/E[0]                                           | rst_dl_reg_n_0_BUFG                                       |              159 |           1024 |
+|  clkw_OBUF_BUFG                               | dc9_inst/dc_ctrl_inst/PE_dout_buffer_reg[31][0]                       | rst_dl_reg_n_0_BUFG                                       |               58 |           1024 |
+|  clkw_OBUF_BUFG                               | ec1_inst/ec_ctrl_inst/index_sram_wr                                   | rst_dl_reg_n_0_BUFG                                       |              247 |           1024 |
+|  clkw_OBUF_BUFG                               | dc8_inst/dc_ctrl_inst/E[0]                                            | rst_dl_reg_n_0_BUFG                                       |              189 |           1024 |
+|  clkw_OBUF_BUFG                               | ec2_inst/ec_ctrl_inst/index_sram_wr                                   | rst_dl_reg_n_0_BUFG                                       |              155 |           1024 |
+|  clkw_OBUF_BUFG                               |                                                                       | rst_dl_reg_n_0_BUFG                                       |              131 |           1108 |
+|  clkw_OBUF_BUFG                               | dc7_inst/dc_ctrl_inst/fmap_in_shiftreg_en                             |                                                           |              135 |           2048 |
+|  clkw_OBUF_BUFG                               | dc8_inst/dc_ctrl_inst/fmap_in_shiftreg_en                             |                                                           |              171 |           2048 |
+|  clkw_OBUF_BUFG                               | dc6_inst/dc_ctrl_inst/shiftregs[0].fmap_buffer_reg[0][511]            |                                                           |              141 |           2048 |
+|  clkw_OBUF_BUFG                               | dc5_inst/dc_ctrl_inst/shiftregs[0].fmap_buffer_reg[0][511]            |                                                           |              149 |           2048 |
+|  clkw_OBUF_BUFG                               | dc6_inst/dc_ctrl_inst/shiftregs[0].fmap_buffer_reg[0][511]_bufg_place |                                                           |              165 |           2048 |
+|  clkw_OBUF_BUFG                               | dc8_inst/dc_ctrl_inst/fmap_in_shiftreg_en_bufg_place                  |                                                           |              175 |           2048 |
+|  clkw_OBUF_BUFG                               | dc7_inst/dc_ctrl_inst/fmap_in_shiftreg_en_bufg_place                  |                                                           |              137 |           2048 |
+|  clkw_OBUF_BUFG                               | dc5_inst/dc_ctrl_inst/shiftregs[0].fmap_buffer_reg[0][511]_bufg_place |                                                           |              152 |           2048 |
+|  clkw_OBUF_BUFG                               | ec2_inst/ec_ctrl_inst/fmap_in_shiftreg_en                             |                                                           |              279 |           3072 |
+|  clkw_OBUF_BUFG                               | ec3_inst/ec_ctrl_inst/fmap_in_shiftreg_en                             |                                                           |              222 |           3072 |
+|  clkw_OBUF_BUFG                               | ec2_inst/ec_ctrl_inst/fmap_in_shiftreg_en_bufg_place                  |                                                           |              304 |           3072 |
+|  clkw_OBUF_BUFG                               | ec3_inst/ec_ctrl_inst/fmap_in_shiftreg_en_bufg_place                  |                                                           |              243 |           3072 |
+|  clkw_OBUF_BUFG                               | ec1_inst/ec_ctrl_inst/fmap_in_shiftreg_en                             | rst_dl_reg_n_0_BUFG                                       |              577 |           4160 |
+|  clkw_OBUF_BUFG                               | ec4_inst/edc_ctrl_inst/fmap_out_shiftreg_en                           | rst_dl_reg_n_0_BUFG                                       |              217 |           4608 |
+|  clkw_OBUF_BUFG                               | dc5_inst/dc_ctrl_inst/fmap_out_shiftreg_en                            | rst_dl_reg_n_0_BUFG                                       |              430 |           4864 |
+|  clkw_OBUF_BUFG                               | dc6_inst/dc_ctrl_inst/fmap_out_shiftreg_en                            | rst_dl_reg_n_0_BUFG                                       |              612 |           4992 |
+|  clkw_OBUF_BUFG                               | dc7_inst/dc_ctrl_inst/fmap_out_shiftreg_en                            | rst_dl_reg_n_0_BUFG                                       |              350 |           5056 |
+|  clkw_OBUF_BUFG                               | dc5_inst/dc_ctrl_inst/shiftregs[0].fmap_buffer_reg[0][511]            | rst_dl_reg_n_0_BUFG                                       |             1347 |           9236 |
+|  clkw_OBUF_BUFG                               | dc6_inst/dc_ctrl_inst/shiftregs[0].fmap_buffer_reg[0][511]            | rst_dl_reg_n_0_BUFG                                       |             1446 |           9244 |
+|  clkw_OBUF_BUFG                               | dc7_inst/dc_ctrl_inst/fmap_in_shiftreg_en                             | rst_dl_reg_n_0_BUFG                                       |              970 |           9260 |
+|  clkw_OBUF_BUFG                               | dc8_inst/dc_ctrl_inst/fmap_in_shiftreg_en                             | rst_dl_reg_n_0_BUFG                                       |             1700 |           9292 |
+|  clkw_OBUF_BUFG                               | ec3_inst/ec_ctrl_inst/fmap_in_shiftreg_en                             | rst_dl_reg_n_0_BUFG                                       |             2605 |          16418 |
+|  clkw_OBUF_BUFG                               | ec2_inst/ec_ctrl_inst/fmap_in_shiftreg_en                             | rst_dl_reg_n_0_BUFG                                       |             3032 |          16434 |
+|  clkw_OBUF_BUFG                               | ec4_inst/edc_ctrl_inst/E[0]                                           | rst_dl_reg_n_0_BUFG                                       |             3074 |          22528 |
++-----------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+
+

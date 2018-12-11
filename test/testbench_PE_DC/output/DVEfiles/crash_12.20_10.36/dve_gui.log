@@ -1,0 +1,30 @@
+3 drivers (1 active statement) found for signal: V2:testbench_PE_EC.U1.binzr_inst.index[0:0]
+3 drivers (1 active statement) found for signal: V2:testbench_PE_EC.U1.binzr_inst.index[0:0]
+---------------------------------------------
+
+The tool has just detected a severe internal error:
+
+SEGV exception handled in TCL command execution:
+gui_close_window -window DriverLoad.1.
+
+
+Release = 'H-2013.06_Full64'  Architecture = 'amd64'  Program = 'DVE'
+
+'32847825 32873664 32875490 139636830952624 20978739 21069082 44965512 21036461 21036645 18034299 18034949 42915295 35358914 35359041 42916607 34836245 35009886 35010519 35010884 34902818 34961784 40258424 41570575 41576242 41577087 41580291 41605070 41576242 41726393 41745430 41893440 41576242 41579899 41580254 41894967 41576242 41726393 41745430 41580340 41606347 41576242 41726393 41745430 41893440 41576242 41579899 41826201 41576242 41577087 40241723 35636781 35613038 35650955 35649139 35649474 32889879 17082096 18000909 32897212 18210410 18211629 42735994 42922467 42419021 42419570 33381880 33178129 42423359 42159561 16980857 42484665 42484538 16979249 16706027 14312060 139636830867269'
+
+---------------------------------------------
+=======================DVE Context and Call Stack=========================
+
+An unexpected termination has occurred in /home/tensor_v1/tools/synopsys/vcs-mx_vh-2013.06/gui/dve/amd64/bin/dve.exe
+
+Tcl="gui_ekki_close_window -window DriverLoad.1 " 
+Tcl="gui_close_window -window DriverLoad.1 " 
+Command line: /home/tensor_v1/tools/synopsys/vcs-mx_vh-2013.06/gui/dve/amd64/bin/dve.exe
+
+--- Stack trace follows:
+ptrace: Operation not permitted.
+/home/tensor_v1/project/B-CEDNet/test/testbench_PE_DC/output/44145: No such file or directory.
+/tmp/.stack_annotator_gdb_cmd_file_oEhW63:3: Error in sourced command file:
+The program is not being run.
+Completed context dump data
+==========================================================================

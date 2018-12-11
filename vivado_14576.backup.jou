@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Oct 11 18:07:00 2018
+# Process ID: 14576
+# Current directory: F:/Vivado_prj/B-CEDNet
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15936 F:\Vivado_prj\B-CEDNet\B-CEDNet.xpr
+# Log file: F:/Vivado_prj/B-CEDNet/vivado.log
+# Journal file: F:/Vivado_prj/B-CEDNet\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Vivado_prj/B-CEDNet/B-CEDNet.xpr
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+set_property file_type SystemVerilog [get_files  F:/Vivado_prj/B-CEDNet/src/soft_ip/AD_CTRL.v]
+update_compile_order -fileset sources_1
+set_property file_type SystemVerilog [get_files  F:/Vivado_prj/B-CEDNet/src/soft_ip/BCEDN_DECODER_OUT.v]
+update_compile_order -fileset sources_1
+set_property file_type SystemVerilog [get_files  F:/Vivado_prj/B-CEDNet/src/soft_ip/BCEDN_ENDECODER.v]
+update_compile_order -fileset sources_1
+set_property source_mgmt_mode DisplayOnly [current_project]
+reorder_files -before F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/CLK_DIV.v F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/CLK_DIV.v
+set_property file_type SystemVerilog [get_files  F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/CLK_DIV.v]
+set_property file_type SystemVerilog [get_files  F:/Vivado_prj/B-CEDNet/src/soft_ip/EDC_CTRL.v]
+set_property file_type SystemVerilog [get_files -of_objects [get_filesets sources_1] F:/Vivado_prj/B-CEDNet/src/soft_ip/PE_OUT.v]
+set_property file_type SystemVerilog [get_files  {F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/ROM_SOFT_F.v F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/W_ROM_SOFT.v}]
+export_ip_user_files -of_objects  [get_files F:/Vivado_prj/B-CEDNet/src/testbench/BCEDN_EDCODER.tb] -no_script -reset -force -quiet
+remove_files  F:/Vivado_prj/B-CEDNet/src/testbench/BCEDN_EDCODER.tb
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+set_property top BCEDN_TOP_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_ip_catalog
+update_compile_order -fileset sim_1
+update_ip_catalog
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation
+set_property file_type SystemVerilog [get_files -of_objects [get_filesets sim_1] F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/W_ROM_1152X32X32.v]
+launch_simulation
+set_property file_type SystemVerilog [get_files  F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/fifo1.v]
+update_compile_order -fileset sources_1
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation
+add_files -norecurse -scan_for_includes {F:/Vivado_prj/src/soft_ip/mem/gen/EC_2_REF_SIGN_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_7.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_4.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_6_REF_SIGN_ROM_2.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_W_ROM_7.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_5_REF_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/ROM_CORE_TEST_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_ROM_3.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_ROM_5.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_ROM_3.sv F:/Vivado_prj/src/soft_ip/mem/gen/AD_W_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_7.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_2_REF_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_W_ROM_2.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_6.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_ROM_6.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/AD_REF_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_2.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_2_REF_SIGN_ROM_3.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_5_REF_SIGN_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_ROM_2.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_6_REF_ROM_2.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_2.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_3.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_ROM_6.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_10_REF_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_ROM_7.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_2_REF_SIGN_ROM_2.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_6.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_5.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_W_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_2_REF_ROM_3.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_4_REF_SIGN_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_ROM_5.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_ROM_7.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_ROM_5.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_6_REF_SIGN_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_3.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_W_ROM_4.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_4_REF_SOFT_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_10_REF_SCALE_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/AD_REF_SIGN_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_4.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_3_REF_SOFT_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/AD_W_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_6_REF_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_ROM_4.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_ROM_2.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_ROM_4.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_ROM_7.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_W_ROM_3.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/TOP_MEAN_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/AD_REF_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/AD_REF_SIGN_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_5_REF_SIGN_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_3.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_ROM_7.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_3_REF_SIGN_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_6_REF_ROM_3.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_ROM_5.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_3.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_4.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_W_ROM_6.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_6.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_5.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_6_REF_SIGN_ROM_3.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_10_W_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_ROM_2.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_ROM_6.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_ROM_2.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_ROM_4.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_6.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_7.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_2_REF_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_6_REF_SIGN_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_W_ROM_5.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_2.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_5.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_5.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_3_REF_SOFT_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_ROM_3.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_6_REF_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_ROM_3.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_2.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_2_REF_SIGN_ROM_1.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_7.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_5_REF_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_REF_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_4.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_3_REF_SIGN_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_9_W_ROM_0.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_2_REF_ROM_2.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_8_REF_ROM_4.sv F:/Vivado_prj/src/soft_ip/mem/gen/EC_1_REF_ROM_6.sv F:/Vivado_prj/src/soft_ip/mem/gen/DC_7_REF_ROM_0.sv}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source BCEDN_TOP_tb.tcl
+close_sim
+launch_simulation
+source BCEDN_TOP_tb.tcl
+close_sim
+launch_simulation
+source BCEDN_TOP_tb.tcl
+close_sim
+launch_simulation
+source BCEDN_TOP_tb.tcl
+close_sim
+launch_simulation
+source BCEDN_TOP_tb.tcl
+restart
+run all
+close_sim

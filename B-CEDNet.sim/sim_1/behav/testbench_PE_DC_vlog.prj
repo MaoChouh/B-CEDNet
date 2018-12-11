@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../src/soft_ip/building_blocks/DEMUX.v"
+sv xil_defaultlib  "../../../src/soft_ip/building_blocks/COMPARATOR.v"
+sv xil_defaultlib  "../../../src/soft_ip/BINCONV_KERNEL.v"
+sv xil_defaultlib  "../../../src/soft_ip/PE_DC.v"
+sv xil_defaultlib  "../../../src/testbench/testbench_PE_DC.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"

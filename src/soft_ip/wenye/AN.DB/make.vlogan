@@ -1,0 +1,27 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -sverilog -full64
+
+all :		_VCSgd_kCjxB_1.db \
+	_VCSgd_fRbsgd_1.db \
+	_VCSgd_Ns36pc_1.db \
+	_VCSgd_5uV1ub_1.db \
+
+
+
+_VCSgd_kCjxB_1.db :	COMPARATOR.v 
+		${VLOGAN}  ${VLOGAN_OPT} COMPARATOR.v
+
+
+_VCSgd_fRbsgd_1.db :	PE_DC.v 
+		${VLOGAN}  ${VLOGAN_OPT} PE_DC.v
+
+
+_VCSgd_Ns36pc_1.db :	PE_EC.v 
+		${VLOGAN}  ${VLOGAN_OPT} PE_EC.v
+
+
+_VCSgd_5uV1ub_1.db :	PE_FP.v 
+		${VLOGAN}  ${VLOGAN_OPT} PE_FP.v
+
+

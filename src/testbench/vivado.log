@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:47:07 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Jan 11 00:07:46 2017
+# Process ID: 30718
+# Log file: /home/tensor_v1/project/B-CEDNet/src/testbench/vivado.log
+# Journal file: /home/tensor_v1/project/B-CEDNet/src/testbench/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/tensor_v1/project/B-CEDNet/B-CEDNet.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_W_ROM_3.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_W_ROM_2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_W_ROM_1.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_W_ROM_0.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_REF_SOFT_ROM_3.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_REF_SOFT_ROM_2.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_REF_SOFT_ROM_1.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/mem/gen/EC_REF_SOFT_ROM_0.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/headers/W_ROM_SOFT.vh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/testbench/headers/testbench_FMAP_IN_SHIFTREG.vh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_ADAPTER_tb.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_EDCODER.tb'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2014.4/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+set_property top BCEDN_TOP [current_fileset]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse {/home/tensor_v1/project/B-CEDNet/src/testbench/headers/DC_8.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/DC_9.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/AD.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/EC_3.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/DC_10.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/EC_4.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/DC_7.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/DC_6.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/DC_5.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/EC_2.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/EC_1.vh}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir /home/tensor_v1/project/B-CEDNet/B-CEDNet.srcs/sources_1/new
+close [ open /home/tensor_v1/project/B-CEDNet/src/soft_ip/BCEDN_DECODER_OUT.v w ]
+add_files /home/tensor_v1/project/B-CEDNet/src/soft_ip/BCEDN_DECODER_OUT.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v w ]
+add_files -fileset sim_1 /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v
+WARNING: [filemgmt 56-12] File '/home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v' cannot be added to the project because it already exists in the project, skipping this file
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse /home/tensor_v1/project/B-CEDNet/src/testbench/headers/BCEDN_TOP_tb.vh
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

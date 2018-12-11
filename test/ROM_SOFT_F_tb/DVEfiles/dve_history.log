@@ -1,0 +1,596 @@
+# Preference setting overrides
+gui_set_pref_value -category {Data} -key {showValueAnnotation} -value {true}
+gui_set_pref_value -category {Driver} -key {show_intermediate_drivers} -value {true}
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_key -category {Hier} -key {showPowerSwitch} -value_type {bool} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_create_pref_category -category {dlg_settings}
+gui_create_pref_key -category {dlg_settings} -key {tableWithImmediatePopup} -value_type {bool} -value {true}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /home/tensor_v1/project/B-CEDNet/test/ROM_SOFT_F_tb/output/ROM_SOFT_F_tb_waveform.vpd -design V1} {gui_open_db -file /home/tensor_v1/mnt/BCEDN_TMP/BCEDN_TOP_tb_waveform.vpd -design V1} {gui_open_db -file BCEDN_TOP_tb_waveform.vpd -design V1} {gui_open_db -file /home/tensor_v1/project/B-CEDNet/test/testbench_PE_FP/output/testbench_PE_FP_waveform.vpd -design V1} {gui_open_db -file /home/tensor_v1/mnt/BCEDN_TMP/BCEDN_TOP_tb_waveform_2.vpd -design V1}}
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -ignore_errors -file /home/tensor_v1/project/B-CEDNet/test/ROM_SOFT_F_tb/DVEfiles//crash_03.20:15.30/dve_session03.20:15.30.tcl} {gui_load_session -ignore_errors -file /home/tensor_v1/mnt/BCEDN_TMP/session.BCEDN_TOP_tb_waveform.vpd.tcl -ignore_errors} {gui_load_session -ignore_errors -file /home/tensor_v1/mnt/BCEDN_TMP/session.BCEDN_TOP_tb_waveform.vpd.tcl} {gui_load_session -ignore_errors -file /home/tensor_v1/mnt/BCEDN_TMP/DVEfiles//crash_01.18:13.41/dve_session01.18:13.41.tcl} {gui_load_session -ignore_errors -file /home/tensor_v1/mnt/BCEDN_TMP/DVEfiles//crash_01.15:16.19/dve_session01.15:16.19.tcl}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1919
+gui_set_state_value -category Layout -key child_console_size_y -value 174
+gui_set_state_value -category Layout -key child_data_coltype -value 80
+gui_set_state_value -category Layout -key child_data_colvalue -value 122
+gui_set_state_value -category Layout -key child_data_colvariable -value 168
+gui_set_state_value -category Layout -key child_data_size_x -value 369
+gui_set_state_value -category Layout -key child_data_size_y -value 766
+gui_set_state_value -category Layout -key child_driver_size_x -value 1623
+gui_set_state_value -category Layout -key child_driver_size_y -value 179
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 312
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_coltype -value 107
+gui_set_state_value -category Layout -key child_hier_size_x -value 375
+gui_set_state_value -category Layout -key child_hier_size_y -value 766
+gui_set_state_value -category Layout -key child_list_down -value 189
+gui_set_state_value -category Layout -key child_list_right -value 440
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1178
+gui_set_state_value -category Layout -key child_source_size_y -value 761
+gui_set_state_value -category Layout -key child_watch_docknewline -value true
+gui_set_state_value -category Layout -key child_watch_size_x -value 1919
+gui_set_state_value -category Layout -key child_watch_size_y -value 105
+gui_set_state_value -category Layout -key child_wave_colname -value 267
+gui_set_state_value -category Layout -key child_wave_colvalue -value 286
+gui_set_state_value -category Layout -key child_wave_left -value 557
+gui_set_state_value -category Layout -key child_wave_right -value 1357
+gui_set_state_value -category Layout -key main_pos_x -value 0
+gui_set_state_value -category Layout -key main_pos_y -value 53
+gui_set_state_value -category Layout -key main_size_x -value 1919
+gui_set_state_value -category Layout -key main_size_y -value 1079
+gui_set_state_value -category Layout -key stand_list_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_list_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_list_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_list_child_size_y -value 334
+gui_set_state_value -category Layout -key stand_list_top_pos_x -value 525
+gui_set_state_value -category Layout -key stand_list_top_pos_y -value 161
+gui_set_state_value -category Layout -key stand_list_top_size_x -value 1120
+gui_set_state_value -category Layout -key stand_list_top_size_y -value 656
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1924
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 940
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 0
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 53
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1919
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 1079
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key Find|m_pFindFrame|m_pFindCombo -value_type string -value {pe_data_out fmap_out_shiftreg_en data_in_mux { output_count} {// output_count}}
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd130|HSPane.1|pages|Hier.1|hbox|textfilter -value_type string -value {{// fmap_in}}
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd2|DLPane.1|pages|Data.1|hbox|textfilter -value_type string -value data_
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd5|DLPane.1|pages|Data.1|hbox|textfilter -value_type string -value done
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_top_dock|&Edit|FindCombo -value_type string -value {pe_data_out fmap_out_shiftreg_en data_in_mux { output_count} {// output_count}}
+gui_create_state_key -category Widget_History -key TopLevel.2|qt_top_dock|&Edit|FindCombo -value_type string -value {pe_data_out fmap_out_shiftreg_en data_in_mux { output_count} {// output_count}}
+gui_create_state_key -category Widget_History -key TopLevel.3|qt_top_dock|&Edit|FindCombo -value_type string -value {data_inreg2pe data_out}
+gui_create_state_key -category Widget_History -key dlgSearchValue|m_ValueComboBox -value_type string -value {{{BCEDN_TOP_tb.U.ec2_inst.PEs[3].pe_ec_inst.genblk2[0].genblk1[0].conv_kernel_inst.weight[4607:0]}}}
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/tensor_v1/project/B-CEDNet/test/ROM_SOFT_F_tb/output/ROM_SOFT_F_tb_waveform.vpd -design V1
+gui_list_expand -id  Hier.1   ROM_SOFT_F_tb
+gui_list_expand -id  Hier.1   ROM_SOFT_F_tb.U
+gui_list_select -id Hier.1 -current_item_name ROM_SOFT_F_tb.U.genblk4.U -current_item_type Scope  -selected  { ROM_SOFT_F_tb.U.genblk4.U   }
+gui_list_select -id Hier.1 -current_item_name ROM_SOFT_F_tb.U -current_item_type Scope  -selected  { ROM_SOFT_F_tb.U   }
+gui_list_action -id  Hier.1 ROM_SOFT_F_tb.U
+gui_save_session -reload -default_file
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_list_select -id Hier.1 -current_item_name ROM_SOFT_F_tb.U -current_item_type Scope  -selected  {  }
+gui_list_select -id Hier.1 -current_item_name ROM_SOFT_F_tb.U -current_item_type Scope  -selected  { ROM_SOFT_F_tb.U   }
+gui_list_select -id Data.1 -selected  { ROM_SOFT_F_tb.U.clk   }
+gui_src_highlight_item -id Source.1 -lfrom 121 -idxfrom 38 -fileIdFrom 0 -lto 121 -idxto 47 -fileIdTo 0 -selection {true_addr} -selectionId 0 -replace 0
+gui_list_expand -id Hier.1   ROM_SOFT_F_tb.U
+gui_list_action -id  Hier.1 ROM_SOFT_F_tb.U
+gui_list_select -id Data.1 -selected  { ROM_SOFT_F_tb.U.clk  ROM_SOFT_F_tb.U.clk_r  ROM_SOFT_F_tb.U.r_en  ROM_SOFT_F_tb.U.rst  {ROM_SOFT_F_tb.U.addr_in[5:0]}  {ROM_SOFT_F_tb.U.data_out[4607:0]}  ROM_SOFT_F_tb.U.buffer_sw  {ROM_SOFT_F_tb.U.true_addr[9:0]}  {ROM_SOFT_F_tb.U.sub_addr[3:0]}   }
+gui_list_select -id Data.1 -selected  { ROM_SOFT_F_tb.U.clk  ROM_SOFT_F_tb.U.clk_r  ROM_SOFT_F_tb.U.r_en  ROM_SOFT_F_tb.U.rst  {ROM_SOFT_F_tb.U.addr_in[5:0]}  {ROM_SOFT_F_tb.U.data_out[4607:0]}  ROM_SOFT_F_tb.U.buffer_sw  {ROM_SOFT_F_tb.U.true_addr[9:0]}  {ROM_SOFT_F_tb.U.sub_addr[3:0]}  {ROM_SOFT_F_tb.U.core_data[383:0]}   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { ROM_SOFT_F_tb.U.clk ROM_SOFT_F_tb.U.clk_r ROM_SOFT_F_tb.U.r_en ROM_SOFT_F_tb.U.rst {ROM_SOFT_F_tb.U.addr_in[5:0]} {ROM_SOFT_F_tb.U.data_out[4607:0]} ROM_SOFT_F_tb.U.buffer_sw {ROM_SOFT_F_tb.U.true_addr[9:0]} {ROM_SOFT_F_tb.U.sub_addr[3:0]} {ROM_SOFT_F_tb.U.core_data[383:0]} } -insertionbar
+gui_marker_move -id  Wave.1 C1 156
+gui_zoom -window Wave.1 -full
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.core_data[383:0]}   }
+gui_marker_move -id  Wave.1 C1 5011098
+gui_list_expand -id  Wave.1   {ROM_SOFT_F_tb.U.core_data[383:0]}
+gui_list_collapse -id  Wave.1   {ROM_SOFT_F_tb.U.core_data[383:0]}
+gui_marker_move -id  Wave.1 C1 4701098
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 4030000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_wv_scroll_hslidermove -id  Wave.1 511
+gui_marker_move -id  Wave.1 C1 4160000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.addr_in[5:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix decimal
+gui_marker_move -id  Wave.1 C1 4030000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_marker_move -id  Wave.1 C1 4030000
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.data_out[4607:0]}   }
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.core_data[383:0]}   }
+gui_list_select -id Data.1 -selected  { {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]}   }
+gui_list_select -id Data.1 -selected  { {ROM_SOFT_F_tb.U.sub_addr[3:0]}   }
+gui_list_select -id Data.1 -selected  { {ROM_SOFT_F_tb.U.core_data[383:0]}   }
+gui_list_select -id Data.1 -selected  { ROM_SOFT_F_tb.U.buffer_sw   }
+gui_list_select -id Data.1 -selected  { {ROM_SOFT_F_tb.U.data_out[4607:0]}   }
+gui_list_select -id Data.1 -selected  { {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]}   }
+gui_list_select -id Data.1 -selected  { {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]}  {ROM_SOFT_F_tb.U.data_out_2[11:0][383:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]} {ROM_SOFT_F_tb.U.data_out_2[11:0][383:0]} } -insertionbar
+gui_list_expand -id  Wave.1   {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]}
+gui_zoom -window Wave.1 -full
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.data_out_1[11][383:0]}   }
+gui_list_select -id Wave.1 { {ROM_SOFT_F_tb.U.data_out_1[10][383:0]}  {ROM_SOFT_F_tb.U.data_out_1[9][383:0]}  {ROM_SOFT_F_tb.U.data_out_1[8][383:0]}  {ROM_SOFT_F_tb.U.data_out_1[7][383:0]}  {ROM_SOFT_F_tb.U.data_out_1[6][383:0]}  {ROM_SOFT_F_tb.U.data_out_1[5][383:0]}  {ROM_SOFT_F_tb.U.data_out_1[4][383:0]}  {ROM_SOFT_F_tb.U.data_out_1[3][383:0]}  {ROM_SOFT_F_tb.U.data_out_1[2][383:0]}  {ROM_SOFT_F_tb.U.data_out_1[1][383:0]}  {ROM_SOFT_F_tb.U.data_out_1[0][383:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix decimal
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 3900000
+gui_marker_select -id  Wave.1 { C1 }
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.data_out_1[11][383:0]}   }
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.data_out_1[0][383:0]}   }
+gui_list_expand -id  Wave.1   {ROM_SOFT_F_tb.U.data_out_2[11:0][383:0]}
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.data_out_2[11][383:0]}   }
+gui_list_select -id Wave.1 { {ROM_SOFT_F_tb.U.data_out_2[10][383:0]}  {ROM_SOFT_F_tb.U.data_out_2[9][383:0]}  {ROM_SOFT_F_tb.U.data_out_2[8][383:0]}  {ROM_SOFT_F_tb.U.data_out_2[7][383:0]}  {ROM_SOFT_F_tb.U.data_out_2[6][383:0]}  {ROM_SOFT_F_tb.U.data_out_2[5][383:0]}  {ROM_SOFT_F_tb.U.data_out_2[4][383:0]}  {ROM_SOFT_F_tb.U.data_out_2[3][383:0]}  {ROM_SOFT_F_tb.U.data_out_2[2][383:0]}  {ROM_SOFT_F_tb.U.data_out_2[1][383:0]}  {ROM_SOFT_F_tb.U.data_out_2[0][383:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix decimal
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.data_out_1[0][383:0]}   }
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.true_addr[9:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix decimal
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_marker_move -id  Wave.1 C1 3910000
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.core_data[383:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix decimal
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.data_out_1[11][383:0]}   }
+gui_get_drivers -id Wave.1 -signal {ROM_SOFT_F_tb.U.data_out_1[2][383:0]}
+gui_list_select -id Wave.1 -selected  { ROM_SOFT_F_tb.U.rst   }
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 8261098
+gui_marker_move -id  Wave.1 C1 3901000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_marker_move -id  Wave.1 C1 3910000
+gui_marker_move -id  Wave.1 C1 3920000
+gui_marker_move -id  Wave.1 C1 3930000
+gui_save_session -reload -default_file
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.data_out_1[9][383:0]}   }
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.core_data[383:0]}   }
+gui_list_collapse -id  Wave.1   {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]}
+gui_list_collapse -id  Wave.1   Group1
+gui_list_select -id Wave.1 -selected  {  }
+gui_list_expand -id  Hier.1   ROM_SOFT_F_tb.U
+gui_list_select -id Hier.1 -current_item_name ROM_SOFT_F_tb.U.genblk4.U1 -current_item_type Scope  -selected  { ROM_SOFT_F_tb.U.genblk4.U1   }
+gui_list_select -id Data.1 -selected  { {ROM_SOFT_F_tb.U.genblk4.U1.A[9:0]}   }
+gui_list_select -id Data.1 -selected  { {ROM_SOFT_F_tb.U.genblk4.U1.A[9:0]}  {ROM_SOFT_F_tb.U.genblk4.U1.Q[127:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { {ROM_SOFT_F_tb.U.genblk4.U1.A[9:0]} {ROM_SOFT_F_tb.U.genblk4.U1.Q[127:0]} } -insertionbar
+gui_list_expand -id  Wave.1   Group1
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.genblk4.U1.A[9:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix decimal
+gui_marker_move -id  Wave.1 C1 3910000
+gui_list_select -id Wave.1 -selected  { ROM_SOFT_F_tb.U.clk_r   }
+gui_save_session -reload -default_file
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.genblk4.U1.A[9:0]}   }
+gui_list_collapse -id  Wave.1   {ROM_SOFT_F_tb.U.data_out_2[11:0][383:0]}
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.core_data[383:0]}   }
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.sub_addr[3:0]}   }
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.core_data[383:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix hex
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]}   }
+gui_get_drivers -id Wave.1 -signal {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]}
+gui_list_expand -id  Wave.1   {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]}
+gui_list_select -id Wave.1 -selected  {  }
+gui_list_select -id Wave.1 -selected  { ROM_SOFT_F_tb.U.r_en   }
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.sub_addr[3:0]}   }
+gui_list_select -id Data.1 -selected  { {ROM_SOFT_F_tb.U.genblk4.U1.bQ[127:0]}   }
+gui_save_session -reload -default_file
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_marker_move -id  Wave.1 C1 3941365
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 3901000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_src_highlight_item -id Source.1 -lfrom 94 -idxfrom 25 -fileIdFrom 0 -lto 94 -idxto 32 -fileIdTo 0 -selection {r_en_dl} -selectionId 0 -replace 0
+gui_list_add -id Wave.1 -from Source.1 { ROM_SOFT_F_tb.U.r_en_dl } -insertionbar
+gui_list_select -id Wave.1 -selected  { ROM_SOFT_F_tb.U.r_en_dl   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after ROM_SOFT_F_tb.U.clk_r {{ROM_SOFT_F_tb.U.r_en_dl}} 
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.core_data[383:0]}   }
+gui_marker_move -id  Wave.1 C1 3910000
+gui_list_select -id Wave.1 -selected  { ROM_SOFT_F_tb.U.r_en_dl   }
+gui_list_collapse -id  Wave.1   {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]}
+gui_list_expand -id  Wave.1   {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]}
+gui_list_collapse -id  Wave.1   {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]}
+gui_list_expand -id  Wave.1   {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]}
+gui_marker_move -id  Wave.1 C1 3920000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.data_out_1[0][383:0]}   }
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 4020000
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_marker_move -id  Wave.1 C1 3910000
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_select -id Wave.1 -selected  { ROM_SOFT_F_tb.U.rst   }
+gui_list_select -id Wave.1 -selected  { ROM_SOFT_F_tb.U.r_en   }
+gui_marker_move -id  Wave.1 C1 3920000
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 4030000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 3910000
+gui_marker_move -id  Wave.1 C1 4030000
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.data_out_1[11][383:0]}   }
+gui_zoom -window Wave.1 -factor 2
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.data_out_1[10][383:0]}   }
+gui_list_expand -id  Wave.1   {ROM_SOFT_F_tb.U.data_out_2[11:0][383:0]}
+gui_list_collapse -id  Wave.1   {ROM_SOFT_F_tb.U.data_out_2[11:0][383:0]}
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.data_out_1[11][383:0]}   }
+gui_get_drivers -id Wave.1 -signal {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]}
+gui_marker_move -id  Wave.1 C1 4020000
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.sub_addr[3:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix decimal
+gui_save_session -reload -default_file
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_src_highlight_item -id Source.1 -lfrom 77 -idxfrom 12 -fileIdFrom 0 -lto 77 -idxto 23 -fileIdTo 0 -selection {sub_addr_dl} -selectionId 0 -replace 0
+gui_list_add -id Wave.1 -from Source.1 { {ROM_SOFT_F_tb.U.sub_addr_dl[3:0]} } -insertionbar
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.sub_addr_dl[3:0]}   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {ROM_SOFT_F_tb.U.sub_addr[3:0]} {{ROM_SOFT_F_tb.U.sub_addr_dl[3:0]}} 
+gui_list_set_selected_property -id Wave.1 -radix decimal
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.data_out_1[11][383:0]}   }
+gui_marker_move -id  Wave.1 C1 4030000
+gui_get_drivers -id Wave.1 -signal {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]}
+gui_save_session -reload -default_file
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_marker_move -id  Wave.1 C1 4030000
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_list_collapse -id  Wave.1   {ROM_SOFT_F_tb.U.data_out_1[11:0][383:0]}
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.data_out[4607:0]}   }
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_list_expand -id  Hier.1   ROM_SOFT_F_tb
+gui_list_select -id Hier.1 -current_item_name ROM_SOFT_F_tb.U -current_item_type Scope  -selected  { ROM_SOFT_F_tb.U   }
+gui_list_expand -id  Hier.1   ROM_SOFT_F_tb.U
+gui_list_select -id Hier.1 -current_item_name ROM_SOFT_F_tb.U.genblk6.U -current_item_type Scope  -selected  { ROM_SOFT_F_tb.U.genblk6.U   }
+gui_save_session -reload -default_file
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_marker_move -id  Wave.1 C1 3980000
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 4160000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 4290000
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_marker_move -id  Wave.1 C1 4411007
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 12383319
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_marker_move -id  Wave.1 C1 12350080
+gui_list_select -id Wave.1 -selected  { ROM_SOFT_F_tb.U.r_en   }
+gui_marker_move -id  Wave.1 C1 12221000
+gui_list_select -id Wave.1 -selected  { {ROM_SOFT_F_tb.U.addr_in[5:0]}   }

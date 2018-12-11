@@ -1,0 +1,26 @@
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2014.4/bin/unwrapped/lnx64.o/xelab -wto e5c66348b01e40fd955917c5168188e5 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_PE_DC_behav xil_defaultlib.testbench_PE_DC xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 10 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-597] element index 41 into data_tmp is out of bounds [/home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/COMPARATOR.v:54]
+WARNING: [VRFC 10-1783] select index 1 into index_tmp is out of bounds [/home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/COMPARATOR.v:55]
+WARNING: [VRFC 10-597] element index 55 into data_tmp is out of bounds [/home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/COMPARATOR.v:56]
+WARNING: [VRFC 10-1783] select index 1 into index_tmp is out of bounds [/home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/COMPARATOR.v:59]
+WARNING: [VRFC 10-597] element index 41 into data_tmp is out of bounds [/home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/COMPARATOR.v:60]
+WARNING: [VRFC 10-1783] select index 1 into index_tmp is out of bounds [/home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/COMPARATOR.v:68]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BINCONV_KERNEL(D=512,FH=3,FW=3)
+Compiling module xil_defaultlib.COMPARATOR(N=2,DATA_WIDTH=14)
+Compiling module xil_defaultlib.DEMUX(N=4)
+Compiling module xil_defaultlib.PE_DC(D=512,FH=3,FW=3,POOL_H=2,P...
+Compiling module xil_defaultlib.testbench_PE_DC
+WARNING: [XSIM 43-3373] "/home/tensor_v1/project/B-CEDNet/src/testbench/testbench_PE_DC.v" Line 54. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "/home/tensor_v1/project/B-CEDNet/src/testbench/testbench_PE_DC.v" Line 55. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "/home/tensor_v1/project/B-CEDNet/src/testbench/testbench_PE_DC.v" Line 56. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "/home/tensor_v1/project/B-CEDNet/src/testbench/testbench_PE_DC.v" Line 57. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_PE_DC_behav

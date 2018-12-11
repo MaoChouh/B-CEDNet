@@ -1,0 +1,14 @@
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/DEMUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DEMUX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/COMPARATOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module COMPARATOR
+WARNING: [VRFC 10-634] event expressions must result in a singular type [/home/tensor_v1/project/B-CEDNet/src/soft_ip/building_blocks/COMPARATOR.v:65]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tensor_v1/project/B-CEDNet/src/soft_ip/BINCONV_KERNEL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BINCONV_KERNEL
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tensor_v1/project/B-CEDNet/src/soft_ip/PE_DC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PE_DC
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tensor_v1/project/B-CEDNet/src/testbench/testbench_PE_DC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench_PE_DC
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/tensor_v1/project/B-CEDNet/B-CEDNet.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

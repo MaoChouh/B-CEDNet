@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:47:07 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Jan 11 00:07:46 2017
+# Process ID: 30718
+# Log file: /home/tensor_v1/project/B-CEDNet/src/testbench/vivado.log
+# Journal file: /home/tensor_v1/project/B-CEDNet/src/testbench/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/tensor_v1/project/B-CEDNet/B-CEDNet.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top BCEDN_TOP [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse {/home/tensor_v1/project/B-CEDNet/src/testbench/headers/DC_8.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/DC_9.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/AD.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/EC_3.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/DC_10.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/EC_4.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/DC_7.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/DC_6.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/DC_5.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/EC_2.vh /home/tensor_v1/project/B-CEDNet/src/testbench/headers/EC_1.vh}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir /home/tensor_v1/project/B-CEDNet/B-CEDNet.srcs/sources_1/new
+close [ open /home/tensor_v1/project/B-CEDNet/src/soft_ip/BCEDN_DECODER_OUT.v w ]
+add_files /home/tensor_v1/project/B-CEDNet/src/soft_ip/BCEDN_DECODER_OUT.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v w ]
+add_files -fileset sim_1 /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse /home/tensor_v1/project/B-CEDNet/src/testbench/headers/BCEDN_TOP_tb.vh
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

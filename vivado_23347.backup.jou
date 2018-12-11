@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:47:07 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sun Jan 15 10:05:08 2017
+# Process ID: 5244
+# Log file: /home/tensor_v1/project/B-CEDNet/vivado.log
+# Journal file: /home/tensor_v1/project/B-CEDNet/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/tensor_v1/project/B-CEDNet/B-CEDNet.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+add_files -norecurse /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse /home/tensor_v1/project/B-CEDNet/src/testbench/BCEDN_TOP_tb_bb.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

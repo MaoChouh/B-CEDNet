@@ -1,0 +1,20 @@
+---------------------------------------------
+
+The tool has just exited abnormally:
+
+
+Release = 'H-2013.06_Full64'  Architecture = 'amd64'  Program = 'DVE'
+
+'32848188 32873664 32875733 140414306218377'
+
+---------------------------------------------
+=======================DVE Context and Call Stack=========================
+Command line: /home/tensor_v1/tools/synopsys/vcs-mx_vh-2013.06/gui/dve/amd64/bin/dve.exe
+
+--- Stack trace follows:
+ptrace: Operation not permitted.
+/home/tensor_v1/project/B-CEDNet/test/testbench_PE_EC/output/39060: No such file or directory.
+/tmp/.stack_annotator_gdb_cmd_file_OsNpPk:3: Error in sourced command file:
+The program is not being run.
+No context available
+==========================================================================

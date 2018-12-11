@@ -1,0 +1,672 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/AD_REF_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD_REF_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/AD_REF_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD_REF_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/AD_REF_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD_REF_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/AD_REF_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD_REF_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/AD_REF_SIGN_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD_REF_SIGN_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/AD_REF_SIGN_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD_REF_SIGN_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/AD_REF_SIGN_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD_REF_SIGN_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/AD_REF_SIGN_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD_REF_SIGN_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/AD_W_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD_W_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/AD_W_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD_W_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/AD_W_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD_W_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/AD_W_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD_W_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_10_REF_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_10_REF_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_10_REF_SCALE_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_10_REF_SCALE_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_10_W_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_10_W_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_5_REF_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_5_REF_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_5_REF_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_5_REF_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_5_REF_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_5_REF_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_5_REF_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_5_REF_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_5_REF_SIGN_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_5_REF_SIGN_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_5_REF_SIGN_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_5_REF_SIGN_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_5_REF_SIGN_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_5_REF_SIGN_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_5_REF_SIGN_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_5_REF_SIGN_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_5_W_ROM_F_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_5_W_ROM_F_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_5_W_ROM_F_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_5_W_ROM_F_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_5_W_ROM_F_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_5_W_ROM_F_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_5_W_ROM_F_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_5_W_ROM_F_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_ROM_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_ROM_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_ROM_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_ROM_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_ROM_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_ROM_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_ROM_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_ROM_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_SIGN_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_SIGN_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_SIGN_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_SIGN_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_SIGN_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_SIGN_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_SIGN_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_SIGN_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_SIGN_ROM_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_SIGN_ROM_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_SIGN_ROM_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_SIGN_ROM_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_SIGN_ROM_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_SIGN_ROM_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_REF_SIGN_ROM_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_REF_SIGN_ROM_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_W_ROM_F_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_W_ROM_F_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_W_ROM_F_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_W_ROM_F_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_W_ROM_F_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_W_ROM_F_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_W_ROM_F_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_W_ROM_F_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_W_ROM_F_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_W_ROM_F_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_W_ROM_F_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_W_ROM_F_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_W_ROM_F_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_W_ROM_F_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_6_W_ROM_F_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_6_W_ROM_F_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_11
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_13.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_13
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_14.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_14
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_15.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_15
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_ROM_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_ROM_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_11
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_13.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_13
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_14.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_14
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_15.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_15
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_REF_SIGN_ROM_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_REF_SIGN_ROM_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_11
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_13.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_13
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_14.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_14
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_15.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_15
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_7_W_ROM_F_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_7_W_ROM_F_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_11
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_13.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_13
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_14.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_14
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_15.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_15
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_ROM_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_ROM_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_11
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_13.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_13
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_14.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_14
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_15.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_15
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_REF_SIGN_ROM_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_REF_SIGN_ROM_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_11
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_13.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_13
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_14.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_14
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_15.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_15
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_8_W_ROM_F_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_8_W_ROM_F_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_11
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_13.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_13
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_14.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_14
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_15.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_15
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_ROM_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_ROM_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_11
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_13.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_13
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_14.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_14
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_15.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_15
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_REF_SIGN_ROM_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_REF_SIGN_ROM_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_11
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_13.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_13
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_14.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_14
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_15.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_15
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/DC_9_W_ROM_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_9_W_ROM_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/DEMUX_1b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DEMUX_1b
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_11
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_13.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_13
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_14.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_14
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_15.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_15
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_ROM_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_ROM_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_11
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_13.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_13
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_14.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_14
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_15.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_15
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_REF_SIGN_ROM_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_REF_SIGN_ROM_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_11
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_12
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_13.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_13
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_14.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_14
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_15.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_15
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_1_W_ROM_F_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_1_W_ROM_F_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_ROM_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_ROM_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_ROM_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_ROM_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_ROM_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_ROM_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_ROM_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_ROM_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_SIGN_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_SIGN_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_SIGN_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_SIGN_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_SIGN_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_SIGN_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_SIGN_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_SIGN_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_SIGN_ROM_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_SIGN_ROM_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_SIGN_ROM_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_SIGN_ROM_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_SIGN_ROM_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_SIGN_ROM_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_REF_SIGN_ROM_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_REF_SIGN_ROM_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_W_ROM_F_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_W_ROM_F_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_W_ROM_F_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_W_ROM_F_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_W_ROM_F_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_W_ROM_F_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_W_ROM_F_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_W_ROM_F_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_W_ROM_F_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_W_ROM_F_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_W_ROM_F_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_W_ROM_F_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_W_ROM_F_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_W_ROM_F_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_2_W_ROM_F_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_2_W_ROM_F_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_3_REF_SIGN_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_3_REF_SIGN_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_3_REF_SIGN_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_3_REF_SIGN_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_3_REF_SIGN_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_3_REF_SIGN_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_3_REF_SIGN_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_3_REF_SIGN_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_3_REF_SOFT_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_3_REF_SOFT_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_3_REF_SOFT_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_3_REF_SOFT_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_3_REF_SOFT_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_3_REF_SOFT_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_3_REF_SOFT_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_3_REF_SOFT_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_3_W_ROM_F_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_3_W_ROM_F_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_3_W_ROM_F_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_3_W_ROM_F_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_3_W_ROM_F_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_3_W_ROM_F_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_3_W_ROM_F_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_3_W_ROM_F_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_4_REF_SIGN_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_4_REF_SIGN_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_4_REF_SIGN_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_4_REF_SIGN_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_4_REF_SIGN_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_4_REF_SIGN_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_4_REF_SIGN_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_4_REF_SIGN_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_4_REF_SOFT_ROM_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_4_REF_SOFT_ROM_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_4_REF_SOFT_ROM_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_4_REF_SOFT_ROM_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_4_REF_SOFT_ROM_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_4_REF_SOFT_ROM_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_4_REF_SOFT_ROM_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_4_REF_SOFT_ROM_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_4_W_ROM_F_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_4_W_ROM_F_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_4_W_ROM_F_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_4_W_ROM_F_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_4_W_ROM_F_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_4_W_ROM_F_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/BCEDNet_verify_matlab/src/soft_ip/mem/gen/EC_4_W_ROM_F_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_4_W_ROM_F_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/mem/b7dhd110g_1024x32x32.beh.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module b7dhd110g_1024x32x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/mem/b7dhd110g_512x64x16.beh.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module b7dhd110g_512x64x16
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/fifomem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifomem
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/mem/mem2p11_dxw_p.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem2p11_dxw_p
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/rptr_empty.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rptr_empty
+INFO: [VRFC 10-2458] undeclared symbol rempty_val, assumed default net type wire [F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/rptr_empty.v:27]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/sync_r2w.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sync_r2w
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/sync_w2r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sync_w2r
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/wptr_full.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wptr_full
+INFO: [VRFC 10-2458] undeclared symbol wfull_val, assumed default net type wire [F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/wptr_full.v:29]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/AD_CTRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AD_CTRL
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/BCEDN_ADAPTER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCEDN_ADAPTER
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/BCEDN_DECODER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCEDN_DECODER
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/BCEDN_DECODER_OUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCEDN_DECODER_OUT
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [F:/Vivado_prj/B-CEDNet/src/soft_ip/BCEDN_DECODER_OUT.v:130]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/BCEDN_ENCODER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCEDN_ENCODER
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/BCEDN_ENDECODER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCEDN_ENDECODER
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [F:/Vivado_prj/B-CEDNet/src/soft_ip/BCEDN_ENDECODER.v:144]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/BCEDN_TOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCEDN_TOP
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/BINCONV_KERNEL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BINCONV_KERNEL
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/COMPARATOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module COMPARATOR
+INFO: [VRFC 10-311] analyzing module comparator_2
+INFO: [VRFC 10-311] analyzing module comp_case
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/CONV_KERNEL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CONV_KERNEL
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/DC_CTRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DC_CTRL
+WARNING: [VRFC 10-756] identifier upool_mux_sel_dl_2 is used before its declaration [F:/Vivado_prj/B-CEDNet/src/soft_ip/DC_CTRL.v:386]
+WARNING: [VRFC 10-756] identifier upool_mux_sel_dl_2 is used before its declaration [F:/Vivado_prj/B-CEDNet/src/soft_ip/DC_CTRL.v:411]
+WARNING: [VRFC 10-756] identifier upool_mux_sel_dl_2 is used before its declaration [F:/Vivado_prj/B-CEDNet/src/soft_ip/DC_CTRL.v:412]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/DEMUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DEMUX
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/EC_CTRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EC_CTRL
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/EDC_CTRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EDC_CTRL
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/FMAP_IN_SHIFTREG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FMAP_IN_SHIFTREG
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/FMAP_OUT_SHIFTREG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FMAP_OUT_SHIFTREG
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/INDEX_SRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module INDEX_SRAM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/PE_DC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PE_DC
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/PE_EC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PE_EC
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/PE_EDC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PE_EDC
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/PE_FP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PE_FP
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/PE_OUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PE_OUT
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/src/soft_ip/mem/gen/ROM_CORE_TEST_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_CORE_TEST_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/ROM_SOFT_F.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_SOFT_F
+WARNING: [VRFC 10-634] event expressions must result in a singular type [F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/ROM_SOFT_F.v:131]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/src/soft_ip/mem/gen/TOP_MEAN_ROM_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP_MEAN_ROM_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/W_ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module W_ROM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/W_ROM_1024X32X32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module W_ROM_1024X32X32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/W_ROM_1152X32X32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module W_ROM_1152X32X32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/W_ROM_512X64X16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module W_ROM_512X64X16
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/W_ROM_SOFT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module W_ROM_SOFT
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/Vivado_prj/B-CEDNet/src/soft_ip/building_blocks/fifo1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo1

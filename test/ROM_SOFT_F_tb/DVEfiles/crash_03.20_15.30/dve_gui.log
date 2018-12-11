@@ -1,0 +1,22 @@
+---------------------------------------------
+
+The tool has just detected a severe internal error:
+
+SEGV exception handled in internal functions.
+
+
+Release = 'H-2013.06_Full64'  Architecture = 'amd64'  Program = 'DVE'
+
+'32847825 32873664 32875490 140592926731440 43545028 43546453 43547050 38773431 26294126 43692625 43694904 43552158 25087904 26242842 42735711 42735849 42922467 42419021 42419946 33381880 33178129 42108009 42103057 42160671 16980857 42484665 42484538 16979249 16706027 14312060 140592926646085'
+
+---------------------------------------------
+=======================DVE Context and Call Stack=========================
+Command line: /home/tensor_v1/tools/synopsys/vcs-mx_vh-2013.06/gui/dve/amd64/bin/dve.exe
+
+--- Stack trace follows:
+ptrace: Operation not permitted.
+/home/tensor_v1/project/B-CEDNet/test/ROM_SOFT_F_tb/27148: No such file or directory.
+/tmp/.stack_annotator_gdb_cmd_file_CMEPli:3: Error in sourced command file:
+The program is not being run.
+No context available
+==========================================================================

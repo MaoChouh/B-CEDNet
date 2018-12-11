@@ -1,0 +1,151 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Nov 14 00:17:05 2018
+# Process ID: 11992
+# Current directory: F:/Vivado_prj/B-CEDNet
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10760 F:\Vivado_prj\B-CEDNet\B-CEDNet.xpr
+# Log file: F:/Vivado_prj/B-CEDNet/vivado.log
+# Journal file: F:/Vivado_prj/B-CEDNet\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Vivado_prj/B-CEDNet/B-CEDNet.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 1278.223 ; gain = 589.102
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  F:/Vivado_prj/B-CEDNet/src/testbench/ROM_SOFT_F_tb.v]
+update_compile_order -fileset sim_1
+set_property top ROM_SOFT_F_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_ip_catalog
+update_ip_catalog
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'ROM_SOFT_F_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim/data_in_ROM.mif'
+INFO: [SIM-utils-43] Exported 'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim/data_in.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj ROM_SOFT_F_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto e5c66348b01e40fd955917c5168188e5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ROM_SOFT_F_tb_behav xil_defaultlib.ROM_SOFT_F_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.CLK_DIV
+Compiling module xil_defaultlib.ROM_CORE_TEST_0
+Compiling module xil_defaultlib.ROM_SOFT_F_default
+Compiling module xil_defaultlib.ROM_SOFT_F_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ROM_SOFT_F_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim/xsim.dir/ROM_SOFT_F_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim/xsim.dir/ROM_SOFT_F_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Nov 14 00:20:11 2018. For additional details about this file, please refer to the WebTalk help file at E:/Xilinx/Vivado/2018.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 55.594 ; gain = 1.328
+INFO: [Common 17-206] Exiting Webtalk at Wed Nov 14 00:20:11 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1278.223 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ROM_SOFT_F_tb_behav -key {Behavioral:sim_1:Functional:ROM_SOFT_F_tb} -tclbatch {ROM_SOFT_F_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source ROM_SOFT_F_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 54ms
+$finish called at time : 12351 ns : File "F:/Vivado_prj/B-CEDNet/src/testbench/ROM_SOFT_F_tb.v" Line 94
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ROM_SOFT_F_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 54ms
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 1278.223 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1278.223 ; gain = 0.000
+set_property is_enabled true [get_files  F:/Vivado_prj/B-CEDNet/src/testbench/BCEDN_TOP_tb.v]
+update_compile_order -fileset sim_1
+set_property top BCEDN_TOP_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_ip_catalog
+update_ip_catalog
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'BCEDN_TOP_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim/data_in_ROM.mif'
+INFO: [SIM-utils-43] Exported 'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim/data_in.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj BCEDN_TOP_tb_vlog.prj"
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:01:20 ; elapsed = 06:46:58 . Memory (MB): peak = 1291.746 ; gain = 4.906
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:01:21 ; elapsed = 06:46:59 . Memory (MB): peak = 1291.746 ; gain = 6.582
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+update_compile_order -fileset sim_1
+launch_runs synth_1 -jobs 4
+[Wed Nov 14 07:09:52 2018] Launched synth_1...
+Run output will be captured here: F:/Vivado_prj/B-CEDNet/B-CEDNet.runs/synth_1/runme.log
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'BCEDN_TOP_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim/data_in_ROM.mif'
+INFO: [SIM-utils-43] Exported 'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim/data_in.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/Vivado_prj/B-CEDNet/B-CEDNet.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj BCEDN_TOP_tb_vlog.prj"
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:24 . Memory (MB): peak = 1365.152 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:25 . Memory (MB): peak = 1365.152 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 14 12:31:26 2018...
